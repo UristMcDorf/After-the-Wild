@@ -1,0 +1,44 @@
+sheika = {
+	graphical_cultures = { westerngfx } # portraits
+	
+	sheika = {
+		graphical_cultures = { westerngfx } # portraits
+		
+		color = { 0.25 0.00 0.25 }
+		
+		male_names = {
+			Cado
+			Dorian
+			Granté
+			Kohga
+			Maz
+			Olkin Ollie
+			Robbie
+			Sheik Steen Symin
+		}
+		female_names = {
+			Claree Cottla
+			Impa
+			Koko
+			Lazli
+			Mellie
+			Nanna
+			Paya Purah
+			Rola
+			Sheik
+			Trissa
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 5
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 5
+		mat_grm_name_chance = 15
+		mother_name_chance = 0
+	}
+}
