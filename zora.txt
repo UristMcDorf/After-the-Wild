@@ -1,96 +1,533 @@
-zora = {
-	graphical_cultures = { zoragfx } # buildings
-	
-	zora = {
-		graphical_cultures = { zoragfx }
-		
-		color = { 0.0 0.6 0.0 } #Green
-		
-		male_names = {
-			Cleff
-			Dento Dorephan
-			Evan
-			Fronk
-			Gruve
-			Japas
-			Kayden
-			Mikau Muzu
-			Ralis Rivan
-			Seggin Sidon
-			Tijo
-			Toto
-			Zora
-
-		}
-		female_names = {
-			Dunma
-			Finley
-			Kodah
-			Laruta Laruto Lulu
-			Marot Mei Mipha
-			Oren
-			Rutela Ruto
-			Tona Torfeau Tula
-		}
-		
-		from_dynasty_prefix = "of "
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 0
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 20
-		mother_name_chance = 0
-		
-		seafarer = yes
+#Zora's Domain
+#Royal family
+247070000 = {
+	name="Dorephan"
+	dynasty=19588709 #Zora
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	1.1.6={
+		birth=yes
 	}
-	river zora = {
-		graphical_cultures = { riverzoragfx }
-		
-		color = { 0.0 0.6 0.0 } #Green
-		
-		male_names = {
-			Cleff
-			Dento Dorephan
-			Evan
-			Fronk
-			Gruve
-			Japas
-			Kayden
-			Mikau Muzu
-			Ralis Rivan
-			Seggin Sidon
-			Tijo
-			Toto
-			Zora
+	345.11.6={
+		death=yes
+	}
+}
+247070001 = {
+	name="Sidon"
+	dynasty=19588709 #Zora
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father = 247070000
+	81.2.28={
+		birth=yes
+	}
+	375.7.1={
+		death=yes
+	}
+}
+247070002 = {
+	name="Mipha"
+	female = yes
+	dynasty=19588709 #Zora
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father = 247070000
+	51.3.22={
+		birth=yes
+	}
+	100.1.1={
+		death=yes
+	}
+}
 
+#Council
+247070003 = {
+	name="Seggin" #Member of the Council of Elders
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	martial = 20
+	11.2.1={
+		birth=yes
+	effect = {
+		dinasty = none
 		}
-		female_names = {
-			Dunma
-			Finley
-			Kodah
-			Laruta Laruto Lulu
-			Marot Mei Mipha
-			Oren
-			Rutela Ruto
-			Tona Torfeau Tula
+	}
+	71.3.21={
+		give_job_title = job_marshal
+		give_nickname = nick_the_demon
+		employer = 247070000
+		prestige = 50
+	}
+	300.1.2={
+		death=yes
+	}
+}
+247070004 = {
+	name="Muzu" #Member of the Council of Elders
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	diplomacy = 12
+	martial = 10
+	11.5.31={
+		birth=yes
+		effect = {
+		dinasty = none
 		}
-		
-		from_dynasty_prefix = "of "
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 0
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 20
-		mother_name_chance = 0
-		
-		seafarer = yes
+	}
+	71.1.16={
+		give_job_title = job_chancellor
+		employer = 247070000
+	}
+	301.11.1={
+		death=yes
+	}
+}
+247070005 = {
+	name="Jihato" #member of the Council of Elders
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	learning = 14
+	add_trait = "scholar"
+	21.11.2={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	121.1.3={
+		give_job_title = job_court_chaplain
+		employer = 247070000
+	}
+	301.11.2={
+		death=yes
+	}
+}
+247070008 = {
+	name="Trello" #Organizer of the Champion Festival, member of Council of Elders
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	intrigue = 10
+	27.10.10={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	89.10.20={
+		give_job_title = job_spymaster
+		employer = 247070000
+	}
+	296.9.19={
+		death=yes
+	}
+}
+247070023 = {
+	name="Laflat" #chief secretary
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	stewardship = 13
+	103.4.17={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	183.5.12={
+		give_job_title = job_steward
+		employer = 247070000
+	}
+	385.4.4={
+		death=yes
+	}
+}
+
+#Secondary characters of some importance
+247070006 = {
+	name="Dento" #the smith
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	6.7.2={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	321.12.2={
+		death=yes
+	}
+}
+247070009 = {
+	name="Bazz" #trained with Link, Zora Knight
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070003
+	87.5.8={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	139.10.1={
+		give_job_title = job_commander
+		employer = 247070000
+	}
+	299.10.11={
+		death=yes
+	}
+}
+247070010 = {
+	name="Gaddison" #trained with Link, Zora Knight
+	female=yes
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	89.12.13={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	148.10.3={
+		give_job_title = job_commander
+		employer = 247070000
+	}
+	403.12.23={
+		death=yes
+	}
+}
+247070011 = {
+	name="Rivan" #trained with Link, Zora Knight
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070008
+	69.1.3={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	108.11.13={
+		give_job_title = job_commander
+		employer = 247070000
+	}
+	344.11.12={
+		death=yes
+	}
+}
+
+#Others
+247070013 = {
+	name="Cleff" #shop owner
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070012
+	98.1.3={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	348.10.12={
+		death=yes
+	}
+}
+247070014 = {
+	name="Dunma" #Rivan's daughter
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070011
+	119.5.30={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	398.10.11={
+		death=yes
+	}
+}
+247070015 = {
+	name="Kodah" #Kayden's husband
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	79.5.30={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	370.11.2={
+		death=yes
+	}
+}
+247070016 = {
+	name="Kayden" #Kodah's husband
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	81.4.12={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	359.11.10={
+		death=yes
+	}
+}
+247070017 = {
+	name="Finley" #Kodah and Kayden's daughter
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	father=247070016
+	mother=247070015
+	171.5.30={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	468.10.31={
+		death=yes
+	}
+}
+247070018 = {
+	name="Fronk" #Dento's assistent
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	71.1.30={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	127.2.12={
+		spouse=247070019
+	}
+	368.12.1={
+		death=yes
+	}
+}
+247070019 = {
+	name="Mei" #Fronk's wife
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	73.11.30={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	127.2.12={
+		spouse=247070018
+	}
+	348.10.2={
+		death=yes
+	}
+}
+247070020 = {
+	name="Keye" #Fronk and Mei's son
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070018
+	mother=247070019
+	172.10.12={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	448.10.2={
+		death=yes
+	}
+}
+247070021 = {
+	name="Tumbo" #Fronk and Mei's son
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070018
+	mother=247070019
+	173.4.27={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	395.9.14={
+		death=yes
+	}
+}
+247070022 = {
+	name="Gruve" #one of Sidon's assistents
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	93.4.17={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	345.9.4={
+		death=yes
+	}
+}
+247070024 = {
+	name="Laruta" #random girl, probably a reference to Laruto
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	183.4.19={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	435.1.5={
+		death=yes
+	}
+}
+247070025 = {
+	name="Ledo" #worker
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	83.4.19={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	325.1.5={
+		death=yes
+	}
+}
+247070027 = {
+	name="Marot" #shop owner
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	stewardship=17
+	add_trait="quick"
+	father=247070026
+	98.12.9={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	395.1.6={
+		death=yes
+	}
+}
+247070028 = {
+	name="Tona" #Cleff's sister
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	father=247070012
+	99.10.8={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	394.8.18={
+		death=yes
+	}
+}
+247070029 = {
+	name="Torfeau" #warrior
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	martial=9
+	100.10.9={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	384.8.18={
+		death=yes
+	}
+}
+247070030 = {
+	name="Tottika" #warrior
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	martial=8
+	120.10.9={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	397.6.1={
+		death=yes
+	}
+}
+247070031 = {
+	name="Tula" #civilian
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	female=yes
+	131.9.19={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	379.4.15={
+		death=yes
+	}
+}
+
+#Tarrey Town
+247070007 = {
+	name="Kapson" #Tarrey Town's priest
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	7.11.15={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	101.11.5={
+		give_job_title = job_court_chaplain
+	}
+	278.10.9={
+		death=yes
+	}
+}
+
+#Noncanon
+247070012 = {
+	name="Cliffar" #noncanon father of Cleff and Tona
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	9.1.3={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	200.6.10={
+		death=yes
+	}
+}
+247070026 = {
+	name="Meno" #noncanon son of Dento and father of Marot
+	religion="faith-of-the-golden-goddesses"
+	culture="zora"
+	father=247070006
+	52.7.9={
+		birth=yes
+		effect = {
+		dinasty = none
+		}
+	}
+	200.9.5={
+		death=yes
 	}
 }

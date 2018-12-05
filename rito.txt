@@ -1,49 +1,266 @@
-rito = {
-	graphical_cultures = { ritogfx }
+#Rito
+249090000 = {
+	name="Kaneli" #Rito chieftain
+	dynasty=102230100
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	130.1.15={
+		birth=yes
+	}
+	213.11.14={
+		death=yes
+	}
+}
+249090001 = {
+	name="Revali" #Rito champion
+	dynasty=102230101
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	80.11.5={
+		birth=yes
+	}
+	100.1.1={
+		death=yes
+	}
+}
+249090002 = {
+	name="Kass" #Traveling bard
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	add_trait=poet
+	165.1.13={
+		birth=yes
+	}
+	189.1.14={
+		spouse=249090006
+	}
+	234.4.15={
+		death=yes
+	}
+}
+249090003 = {
+	name="Teba" #Rito warrior
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	add_trait="stubborn"
+	add_trait="diligent"
+	martial=10
+	163.1.13={
+		birth=yes
+	}
+	189.12.13={
+		spouse=249090004
+	}
+	254.4.15={
+		death=yes
+	}
+}
+249090004 = {
+	name="Saki" #Teba's wife
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	166.6.7={
+		birth=yes
+	}
+	189.12.13={
+		spouse=249090003
+	}
+	253.3.11={
+		death=yes
+	}
+}
+249090005 = {
+	name="Tulin" #Teba and Saki's son
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	191.6.7={
+		birth=yes
+	}
+	270.3.12={
+		death=yes
+	}
+}
 
-	rito = {
-		graphical_cultures = { ritogfx }
-		
-		color = { 0.8 0.6 0.8 }
-		
-		male_names = {
-			Akoot
-			Basht Bisht 
-			Fyson 
-			Guy 
-			Harth Hoskit Huck 
-			Ilari 
-			Kaneli Kass Koboli Kogoli Komali
-			Mazli Mimo
-			Namali Nekk
-			Pashli
-			Quill
-			Revali
-			Skett
-			Teba
-			Tulin
-		 }
-		female_names = {
-			Amali
-			Cecili Cree
-			Frita 
-			Genli
-			Kheel Kotts
-			Medli Molli
-			Notts
-			Saki
-		}
-		
-		from_dynasty_prefix = "of "
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 0
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 10
-		mother_name_chance = 0
+249090006 = {
+	name="Amali" #Kass' wife
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	166.12.17={
+		birth=yes
+	}
+	189.1.14={
+		spouse=249090002
+	}
+	230.5.13={
+		death=yes
+	}
+}
+249090007 = {
+	name="Cree" #Kass and Amali's first daughter
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	father=249090002
+	mother=249090006
+	190.1.13={
+		birth=yes
+	}
+	250.3.1={
+		death=yes
+	}
+}
+249090007 = {
+	name="Genli" #Kass and Amali's second daughter
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	father=249090002
+	mother=249090006
+	191.2.3={
+		birth=yes
+	}
+	243.5.3={
+		death=yes
+	}
+}
+249090008 = {
+	name="Kheel" #Kass and Amali's third daughter
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	father=249090002
+	mother=249090006
+	192.3.4={
+		birth=yes
+	}
+	288.1.17={
+		death=yes
+	}
+}
+249090009 = {
+	name="Kotts" #Kass and Amali's fourth daughter
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	father=249090002
+	mother=249090006
+	194.2.14={
+		birth=yes
+	}
+	268.12.7={
+		death=yes
+	}
+}
+249090010 = {
+	name="Notts" #Kass and Amali's fifth daughter
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	father=249090002
+	mother=249090006
+	195.1.1={
+		birth=yes
+	}
+	269.1.13={
+		death=yes
+	}
+}
+249090011 = {
+	name="Bedoli" #Villager, gives a quest
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	174.1.21={
+		birth=yes
+	}
+	240.12.10={
+		death=yes
+	}
+}
+249090012 = {
+	name="Cecili" #Innkeeper
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	stewardship=8
+	diplomacy=8
+	170.11.2={
+		birth=yes
+	}
+	220.12.13={
+		death=yes
+	}
+}
+249090013 = {
+	name="Frita" #Traveler in Gerudo Town
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	female=yes
+	176.10.12={
+		birth=yes
+	}
+	243.2.27={
+		death=yes
+	}
+}
+249090014 = {
+	name="Fyson" #Shop owner in Tarrey Town
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	stewardship=10
+	176.10.12={
+		birth=yes
+	}
+	201.4.1={
+		give_job_title=job_steward
+	}
+	243.2.27={
+		death=yes
+	}
+}
+249090015 = {
+	name="Gesane" #Villager
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	173.5.18={
+		birth=yes
+	}
+	245.12.25={
+		death=yes
+	}
+}
+249090016 = {
+	name="Gus" #in the Kara Kara Bazaar
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	162.6.17={
+		birth=yes
+	}
+	239.10.20={
+		death=yes
+	}
+}
+249090017 = {
+	name="Harth" #Makes bows
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	150.12.8={
+		birth=yes
+	}
+	228.1.12={
+		death=yes
+	}
+}
+249090018 = {
+	name="Molli" #Harth's son
+	religion="faith_of_the_golden_goddesses"
+	culture="rito"
+	186.10.14={
+		birth=yes
+	}
+	278.11.21={
+		death=yes
 	}
 }
