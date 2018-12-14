@@ -4,7 +4,7 @@
 	dynasty=19252100 # Makeela
 	religion="faith_of_the_golden_goddesses"
 	culture="gerudo"
-  female=yes
+  	female=yes
 	185.10.3 = {
 		birth=yes
 	}
@@ -16,13 +16,29 @@
 	name="Buliara" # Marshal and regent
 	religion="faith_of_the_golden_goddesses"
 	culture="gerudo"
-  female=yes
-  martial=11
-  trait=strong
+  	female=yes
+  	martial=11
+  	trait=strong
 	169.1.15 = {
 		birth=yes
 	}
+	199.11.9 = {
+		give_job_title=marshal
+		give_job_title=regent
+	}
 	233.1.30 = {
+		death=yes
+	}
+}
+243030002 = {
+	name="Anche" # owner of the Northern Icehouse
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	158.1.17 = {
+		birth=yes
+	}
+	227.6.16 = {
 		death=yes
 	}
 }
