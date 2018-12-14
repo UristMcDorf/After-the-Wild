@@ -1,0 +1,28 @@
+#Gerudo
+243030000 = {
+	name="Riju" # Current Gerudo chief
+	dynasty=19252100 # Makeela
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  female=yes
+	185.10.3 = {
+		birth=yes
+	}
+	270.11.4 = {
+		death=yes
+	}
+}
+243030001 = {
+	name="Buliara" # Marshal and regent
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  female=yes
+  martial=11
+  trait=strong
+	169.1.15 = {
+		birth=yes
+	}
+	233.1.30 = {
+		death=yes
+	}
+}
