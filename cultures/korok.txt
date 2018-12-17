@@ -1,0 +1,115 @@
+korok = {
+	graphical_cultures = { korokgfx } # units
+	
+	korok = {
+		graphical_cultures = { korokgfx } 
+		
+		color = { 0.9 0.6 0 }
+		
+		male_names = {
+			Aldo
+			Chio
+			Damia Daz Drona
+			Elma
+			Hestu Hollo
+			Irch
+			Linder
+			Maca Makar
+			Natie
+			Oakin Olivio
+			Pepp
+			Rown
+			Walton
+			
+		}
+		female_names = {
+			" "
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 0
+		
+	}
+	
+	# minish = {
+		# graphical_cultures = { minishgfx } 
+		
+		# color = { 0.7 0.4 0 }
+		
+		# male_names = {
+			# Belari Cheruta Ezlo Festari Gentari Jotari Librari Melari Vaati
+		# }
+		# female_names = {
+			# " "
+		# }
+		
+		# from_dynasty_prefix = "of "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		# pat_grf_name_chance = 15
+		# mat_grf_name_chance = 10
+		# father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		# pat_grm_name_chance = 15
+		# mat_grm_name_chance = 10
+		# mother_name_chance = 0
+		
+		# modifier = default_culture_modifier
+	# }
+	
+	# kikwis = {
+		# graphical_cultures = { kikwigfx } # units
+		
+		# color = { 0.5 0.5 0 }
+		
+		# male_names = {
+			# Bucha Erla Lopsa Machi Oolo Yerbal
+		# }
+		# female_names = {
+			# " "
+		# }
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		# pat_grf_name_chance = 15
+		# mat_grf_name_chance = 10
+		# father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		# pat_grm_name_chance = 15
+		# mat_grm_name_chance = 10
+		# mother_name_chance = 0
+		
+	# }	
+	
+	# kokiri = {
+		# graphical_cultures = { kokirigfx } # units
+		
+		# color = { 0.8 0.8 0.0 }
+		
+		# male_names = {
+			# Mido Fado
+		# }
+		# female_names = {
+			# Saria
+		# }
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		# pat_grf_name_chance = 15
+		# mat_grf_name_chance = 10
+		# father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		# pat_grm_name_chance = 15
+		# mat_grm_name_chance = 10
+		# mother_name_chance = 0
+
+	# }
+}

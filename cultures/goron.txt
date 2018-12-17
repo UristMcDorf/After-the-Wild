@@ -1,0 +1,492 @@
+# Gorons
+#Ruler and great houses
+248080000 = {
+	name="Bludo" # Current Goron chief
+	dynasty=19252500 # of Goron Village
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	trait=strong
+	120.12.31 = {
+		birth=yes
+	}
+	220.1.1 = {
+		death=yes
+	}
+}
+248080001 = {
+	name="Yunobo" # Daruk's descendent
+	dynasty=19252501 # Darugor (non canon, house of Daruk)
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	martial=10
+	trait="brawny"
+	180.11.21 = {
+		birth=yes
+	}
+	185.5.13 = {
+		add_friend=248080033
+	}
+	261.12.9 = {
+		death=yes
+	}
+}
+
+#In Goron City
+248080002 = {
+	name="Rohan" # Smith, a JoJo reference
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	trait="brawny"
+	119.10.1 = {
+		birth=yes
+	}
+	203.10.7 = {
+		death=yes
+	}
+}
+248080003 = {
+	name="Fugo" # Random character, also a JoJo reference
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	169.10.3 = {
+		birth=yes
+	}
+	245.2.14 = {
+		death=yes
+	}
+}
+248080006 = {
+	name="Slergo" # Rohan's great-grandson
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	father=248080005
+	189.11.1 = {
+		birth=yes
+	}
+	285.1.17 = {
+		death=yes
+	}
+}
+248080007 = {
+	name="Aji" # shop owner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	diplomacy=9
+	stewardship=6
+	169.6.19 = {
+		birth=yes
+	}
+	232.1.10 = {
+		death=yes
+	}
+}
+248080009 = {
+	name="Bladon" # Gonguron's brother
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	father=248080008
+	179.6.19 = {
+		birth=yes
+	}
+	248.11.9 = {
+		death=yes
+	}
+}
+248080010 = {
+	name="Gonguron" # Bladon's brother
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	father=248080008
+	add_trait="gluttonous"
+	181.10.7 = {
+		birth=yes
+	}
+	255.11.8 = {
+		death=yes
+	}
+}
+248080011 = {
+	name="Offrak" # Goron child, sells spices
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	stewardship=8
+	190.1.6 = {
+		birth=yes
+	}
+	268.10.8 = {
+		death=yes
+	}
+}
+248080012 = {
+	name="Pyle" # Greeter, previously miner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	diplomacy=8
+	add_trait="brawny"
+	179.9.16 = {
+		birth=yes
+	}
+	253.1.18 = {
+		death=yes
+	}
+}
+248080013 = {
+	name="Rogaro" # Armor shop owner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	stewardship=8
+	165.6.5 = {
+		birth=yes
+	}
+	233.11.9 = {
+		death=yes
+	}
+}
+248080014 = {
+	name="Tanko" # shop owner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	stewardship=8
+	157.12.7 = {
+		birth=yes
+	}
+	225.3.18 = {
+		death=yes
+	}
+}
+248080015 = {
+	name="Tray" # innkeeper, Volcon's brother
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	father=248080039
+	stewardship=8
+	diplomacy=8
+	127.2.17 = {
+		birth=yes
+	}
+	207.4.1 = {
+		death=yes
+	}
+}
+248080016 = {
+	name="Volcon" # greeter, masseuse, Tray's brother
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	diplomacy=9
+	father=248080039
+	128.12.10 = {
+		birth=yes
+	}
+	208.11.11 = {
+		death=yes
+	}
+}
+248080017 = {
+	name="Dorill" # head miner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="brawny"
+	178.2.26 = {
+		birth=yes
+	}
+	251.1.19 = {
+		death=yes
+	}
+}
+248080018 = {
+	name="Axyl" # Dorill's son, miner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="strong"
+	father=248080017
+	189.2.19 = {
+		birth=yes
+	}
+	288.1.21 = {
+		death=yes
+	}
+}
+248080019 = {
+	name="Bargoh" # Guard
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="strong"
+	170.1.19 = {
+		birth=yes
+	}
+	264.1.21 = {
+		death=yes
+	}
+}
+248080021 = {
+	name="Bayge" # Brother of Heehl and Kabetta
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="strong"
+	father=248080020
+	178.9.17 = {
+		birth=yes
+	}
+	247.1.11 = {
+		death=yes
+	}
+}
+248080022 = {
+	name="Heehl" # Brother of Bayge and Kabetta
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="strong"
+	father=248080020
+	180.1.9 = {
+		birth=yes
+	}
+	254.11.14 = {
+		death=yes
+	}
+}
+248080023 = {
+	name="Kabetta" # Brother of Bayge and Heehl
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="strong"
+	father=248080020
+	183.4.19 = {
+		birth=yes
+	}
+	268.2.24 = {
+		death=yes
+	}
+}
+248080024 = {
+	name="Bohrin" # Elder miner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="brawny"
+	143.9.9 = {
+		birth=yes
+	}
+	220.5.12 = {
+		death=yes
+	}
+}
+248080026 = {
+	name="Drak" # guard, miner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="brawny"
+	martial=9
+	168.5.13 = {
+		birth=yes
+	}
+	250.12.10 = {
+		death=yes
+	}
+}
+248080027 = {
+	name="Dugby" # kid that hides the drillshaft
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="shrewd"
+	191.3.12 = {
+		birth=yes
+	}
+	280.8.1 = {
+		death=yes
+	}
+}
+248080028 = {
+	name="Grapp" # old man at the hot spring
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	121.4.13 = {
+		birth=yes
+	}
+	208.7.16 = {
+		death=yes
+	}
+}
+248080032 = {
+	name="Jengo" # miner
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="brawny"
+	180.4.30 = {
+		birth=yes
+	}
+	243.10.1 = {
+		death=yes
+	}
+}
+248080034 = {
+	name="Krane" # guard
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	martial=9
+	178.2.12 = {
+		birth=yes
+	}
+	259.1.1 = {
+		death=yes
+	}
+}
+
+#Tarrey Town
+248080030 = {
+	name="Greyson" # Pelison's brother
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	add_trait="brawny"
+	father=248080029
+	182.4.3 = {
+		birth=yes
+	}
+	278.10.14 = {
+		death=yes
+	}
+}
+248080031 = {
+	name="Pelison" # Greyson's brother
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	stewardship=9
+	father=248080029
+	190.4.3 = {
+		birth=yes
+	}
+	283.1.10 = {
+		death=yes
+	}
+}
+
+#Gerudo Town
+248080035 = {
+	name="Lyndae" # traveler at Gerudo Town
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	180.2.12 = {
+		birth=yes
+	}
+	259.11.3 = {
+		death=yes
+	}
+}
+248080037 = {
+	name="Strade" # traveler at Gerudo town
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	169.12.1 = {
+		birth=yes
+	}
+	219.12.31 = {
+		death=yes
+	}
+}
+
+#Travelers
+248080025 = {
+	name="Boldon" # Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	diplomacy=10
+	169.10.5 = {
+		birth=yes
+	}
+	250.5.13 = {
+		death=yes
+	}
+}
+248080033 = {
+	name="Kairo" # traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	179.2.12 = {
+		birth=yes
+	}
+	185.5.13 = {
+		add_friend=248080001
+	}
+	240.1.2 = {
+		death=yes
+	}
+}
+248080036 = {
+	name="Naddon" # traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	177.3.14 = {
+		birth=yes
+	}
+	244.5.12 = {
+		death=yes
+	}
+}
+
+#Non canon
+248080004 = {
+	name="Gorgo" # Rohan's non canon son
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	father=248080002
+	139.12.30 = {
+		birth=yes
+	}
+	179.10.7 = {
+		death=yes
+	}
+}
+248080005 = {
+	name="Rongo" # Rohan's non canon grandson
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	father=248080004
+	169.11.20 = {
+		birth=yes
+	}
+	199.6.15 = {
+		death=yes
+	}
+}
+248080008 = {
+	name="Bigon" # Bladon and Gonguron's noncanon father
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	149.7.12 = {
+		birth=yes
+	}
+	200.1.10 = {
+		death=yes
+	}
+}
+248080020 = {
+	name="Kabehly" # Non canon father of Bayge, Heehl and Kabetta
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	150.1.19 = {
+		birth=yes
+	}
+	198.1.10 = {
+		death=yes
+	}
+}
+248080029 = {
+	name="Grypel" # noncanon Greyson and Pelison's father
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	161.4.3 = {
+		birth=yes
+	}
+	200.1.15 = {
+		death=yes
+	}
+}
+248080039 = {
+	name="Kabehly" # Non canon father of Tray and Volcon
+	religion="faith_of_the_golden_goddesses"
+	culture="goron"
+	110.1.19 = {
+		birth=yes
+	}
+	188.1.10 = {
+		death=yes
+	}
+}
