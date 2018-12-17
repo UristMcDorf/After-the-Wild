@@ -468,7 +468,7 @@
 	religion="faith_of_the_golden_goddesses"
 	culture="gerudo"
   	female=yes
-	184.11.9 = {
+	174.11.9 = {
 		birth=yes
 	}
 	273.9.17 = {
@@ -476,14 +476,38 @@
 	}
 }
 243030036 = {
-	name="Pritana" # villager
+	name="Pyra" # villager
 	religion="faith_of_the_golden_goddesses"
 	culture="gerudo"
   	female=yes
-	184.11.9 = {
+	161.1.29 = {
 		birth=yes
 	}
-	273.9.17 = {
+	263.7.19 = {
+		death=yes
+	}
+}
+243030037 = {
+	name="Ramella" # In Goron City
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	180.9.20 = {
+		birth=yes
+	}
+	291.12.31 = {
+		death=yes
+	}
+}
+243030037 = {
+	name="Reeza" # In Goron City
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	180.9.20 = {
+		birth=yes
+	}
+	291.12.31 = {
 		death=yes
 	}
 }
