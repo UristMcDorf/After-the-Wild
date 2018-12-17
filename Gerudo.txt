@@ -42,3 +42,448 @@
 		death=yes
 	}
 }
+243030003 = {
+	name="Ardin" # owner of the mushroom shop
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	stewardship=10
+	175.12.13 = {
+		birth=yes
+	}
+	270.10.7 = {
+		death=yes
+	}
+}
+243030004 = {
+	name="Ashai" # teaches relationship during the day and cooking at night
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	intrigue=10
+	stewardship=8
+	163.10.20 = {
+		birth=yes
+	}
+	189.11.15 = {
+		rival=243030005
+	}
+	289.11.30 = {
+		death=yes
+	}
+}
+243030005 = {
+	name="Jewel" # owns the jewelry shop
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	add_nickname=nick_Isha
+	stewardship=11
+	155.11.2 = {
+		birth=yes
+	}
+	189.11.15 = {
+		rival=243030004
+	}
+	280.1.29 = {
+		death=yes
+	}
+}
+243030006 = {
+	name="Barta" # gerudo warrior
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	martial=8
+	173.4.12 = {
+		birth=yes
+	}
+	292.9.2 = {
+		death=yes
+	}
+}
+243030007 = {
+	name="Benja" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	181.5.18 = {
+		birth=yes
+	}
+	272.6.29 = {
+		death=yes
+	}
+}
+243030008 = {
+	name="Calisa" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	180.7.15 = {
+		birth=yes
+	}
+	269.4.12 = {
+		death=yes
+	}
+}
+243030009 = {
+	name="Calyban" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	trait=gluttonous
+	171.12.30 = {
+		birth=yes
+	}
+	259.1.24 = {
+		death=yes
+	}
+}
+243030010 = {
+	name="Dalia" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	191.3.16 = {
+		birth=yes
+	}
+	299.6.13 = {
+		death=yes
+	}
+}
+243030011 = {
+	name="Deltan" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	171.2.28 = {
+		birth=yes
+	}
+	266.7.14 = {
+		death=yes
+	}
+}
+243030012 = {
+	name="Furosa" # elderly owner of the Noble Canteen
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	intrigue=8
+	stewardship=9
+	149.12.8 = {
+		birth=yes
+	}
+	220.10.19 = {
+		death=yes
+	}
+}
+243030013 = {
+	name="Greta" # Gerudo Secret Club owner
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	intrigue=9
+	stewardship=8
+	180.1.23 = {
+		birth=yes
+	}
+	279.7.18 = {
+		death=yes
+	}
+}
+243030014 = {
+	name="Kachoo" # Kara Kara bazaar
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	173.12.3 = {
+		birth=yes
+	}
+	278.10.2 = {
+		death=yes
+	}
+}
+243030015 = {
+	name="Karsh" # Voy hunting
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	180.5.13 = {
+		birth=yes
+	}
+	281.1.22 = {
+		death=yes
+	}
+}
+243030016 = {
+	name="Konora" # Noble Canteen client
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	160.2.15 = {
+		birth=yes
+	}
+	251.6.2 = {
+		death=yes
+	}
+}
+243030017 = {
+	name="Kyra" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	161.12.5 = {
+		birth=yes
+	}
+	270.6.18 = {
+		death=yes
+	}
+}
+243030018 = {
+	name="Laine" # guard
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	martial=8
+	159.1.15 = {
+		birth=yes
+	}
+	240.10.9 = {
+		death=yes
+	}
+}
+243030019 = {
+	name="Laroba" # voy hunting
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	trait=craven
+	179.11.7 = {
+		birth=yes
+	}
+	250.3.19 = {
+		death=yes
+	}
+}
+243030020 = {
+	name="Liana" # guards instructor
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	martial=10
+	156.1.6 = {
+		birth=yes
+	}
+	240.3.13 = {
+		death=yes
+	}
+}
+243030021 = {
+	name="Malena" # married villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	159.11.9 = {
+		birth=yes
+	}
+	189.1.19 = {
+		spouse=
+	}
+	251.12.26 = {
+		death=yes
+	}
+}
+243030022 = {
+	name="Muava" # elder that keeps company to the Hylia statue
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	learning=9
+	add_trait=zealous
+	138.4.17 = {
+		birth=yes
+	}
+	220.6.16 = {
+		death=yes
+	}
+}
+243030023 = {
+	name="Nellie" # Noble Canteen client
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	146.5.14 = {
+		birth=yes
+	}
+	250.7.6 = {
+		death=yes
+	}
+}
+243030024 = {
+	name="Padda" # Warrior and Patricia's caretaker
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	martial=9
+	learning=9
+	163.8.1 = {
+		birth=yes
+	}
+	248.6.16 = {
+		death=yes
+	}
+}
+243030025 = {
+	name="Pearle" # Child that idolizes lady Urbosa
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	learning=5
+	mother=243030027
+	191.2.11 = {
+		birth=yes
+	}
+	298.10.19 = {
+		death=yes
+	}
+}
+243030026 = {
+	name="Rotane" # Scholar
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	learning=9
+	trait=scholar
+	mother=243030027
+	179.12.16 = {
+		birth=yes
+	}
+	289.11.6 = {
+		death=yes
+	}
+}
+243030027 = {
+	name="Kakure" # Pearle and Rotana non canon mother
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	159.10.6 = {
+		birth=yes
+	}
+	200.11.13 = {
+		death=yes
+	}
+}
+243030028 = {
+	name="Kakure" # Pearle and Rotana non canon mother
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	159.10.6 = {
+		birth=yes
+	}
+	200.11.13 = {
+		death=yes
+	}
+}
+243030029 = {
+	name="Kakure" # Pearle and Rotana non canon mother
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	159.10.6 = {
+		birth=yes
+	}
+	200.11.13 = {
+		death=yes
+	}
+}
+243030030 = {
+	name="Estan" # butcher
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	mother=243030032
+	171.1.16 = {
+		birth=yes
+	}
+	286.5.13 = {
+		death=yes
+	}
+}
+243030031 = {
+	name="Maike" # kara kara bazaar shop owner
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	mother=243030032
+	169.7.8 = {
+		birth=yes
+	}
+	289.10.3 = {
+		death=yes
+	}
+}
+243030032 = {
+	name="Marua" # Maike and Estan non canon mother
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	131.6.28 = {
+		birth=yes
+	}
+	193.3.13 = {
+		death=yes
+	}
+}
+243030033 = {
+	name="Perda" # traveler, marries an hylian
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	170.10.5 = {
+		birth=yes
+	}
+	201.3.18 = {
+		spouse=
+	}
+	255.13.3 = {
+		death=yes
+	}
+}
+243030034 = {
+	name="Pokki" # villager, needs a drink
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	185.1.13 = {
+		birth=yes
+	}
+	264.3.7 = {
+		death=yes
+	}
+}
+243030035 = {
+	name="Pritana" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	184.11.9 = {
+		birth=yes
+	}
+	273.9.17 = {
+		death=yes
+	}
+}
+243030036 = {
+	name="Pritana" # villager
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	184.11.9 = {
+		birth=yes
+	}
+	273.9.17 = {
+		death=yes
+	}
+}
