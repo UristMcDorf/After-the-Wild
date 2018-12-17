@@ -1,0 +1,49 @@
+rito = {
+	graphical_cultures = { ritogfx }
+
+	rito = {
+		graphical_cultures = { ritogfx }
+		
+		color = { 0.8 0.6 0.8 }
+		
+		male_names = {
+			Akoot
+			Basht Bisht 
+			Fyson 
+			Guy 
+			Harth Hoskit Huck 
+			Ilari 
+			Kaneli Kass Koboli Kogoli Komali
+			Mazli Mimo
+			Namali Nekk
+			Pashli
+			Quill
+			Revali
+			Skett
+			Teba
+			Tulin
+		 }
+		female_names = {
+			Amali
+			Cecili Cree
+			Frita 
+			Genli
+			Kheel Kotts
+			Medli Molli
+			Notts
+			Saki
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 0
+	}
+}

@@ -1,0 +1,4327 @@
+# The limiting slots for equipped artifacts. Dynamic system (you can add new types of slots freely)
+slots = {
+	weapon = 1
+	shield = 1
+	scepter = 1
+	crown = 1
+	torso = 1
+	legs = 1
+}
+
+### Weapons ###
+
+tree_branch = {
+	combat_rating = 0.01
+	quality = 1
+	active = {
+		age = 10
+	}
+	flags = { combat_weapon axe combat_tier_1 }
+	stacking = no
+	picture = "GFX_tree_branch"
+	slot = weapon
+}
+
+torch = { 
+	monthly_character_prestige = 0.01
+	quality = 1
+	flags = { combat_weapon mace combat_tier_1 }
+	picture = "GFX_torch"
+	slot = weapon
+}
+
+master_sword = {
+	quality = 4
+	combat_rating = 20
+	monthly_character_prestige = 35
+	hylian_opinion = 30
+	monsters_opinion = -100
+	vassal_opinion = 10
+	flags = { combat_weapon sword combat_tier_4 }
+	stacking = no
+	indestructible = yes
+	allowed_gift = no
+	picture = "GFX_master_sword"		
+	slot = weapon
+}
+
+soup_ladle = {
+	quality = 1
+	monthly_character_prestige = 0.01
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_soup_ladle"
+	slot = weapon
+}
+
+boomerang = {
+	quality = 2
+	monthly_character_prestige = 0.5
+	vassal_opinion = 2
+	flags = { combat_weapon sword crombat_tier_2 }
+	stacking = no
+	picture = "GFX_boomerang"
+	slot = weapon
+}
+
+spring_loaded_hammer = {
+	quality = 1
+	monthly_character_prestige = 0.01
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_spring_loaded_hammer"
+	slot = weapon
+}
+
+travelers_sword = {
+	quality = 1
+	monthly_character_prestige = 0.2
+	martial = 1
+	vassal_opinion = 2
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_travelers_sword"	
+	slot = weapon
+}
+
+soldiers_broadsword = {
+	quality = 1
+	monthly_character_prestige = 0.4
+	martial = 2
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_soldiers_broadsword"
+	slot = weapon
+}
+
+knights_broadsword = {
+	quality = 2
+	monthly_character_prestige = 0.8
+	vassal_opinion = 4
+	martial = 2
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_knights_broadsword"	
+	slot = weapon
+}
+
+royal_broadsword = {
+	quality = 2
+	monthly_character_prestige = 1.2
+	vassal_opinion = 6
+	combat_modifier = {
+		heavy_infantry = 0.25
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_royal_broadsword"
+	slot = weapon
+}
+
+forest_dwellers_sword = {
+	quality = 2
+	monthly_character_prestige = 1.2
+	korok_opinion = 1
+	martial = 1
+	intrigue = 3
+	combat_modifier = {
+		light_infantry = 0.25
+		terrain_forest = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_forest_dwellers_sword"
+	slot = weapon
+}
+
+zora_sword = {
+	quality = 2
+	monthly_character_prestige = 1.2
+	zora_opinion = 3
+	combat_modifier = {
+		pikemen = 0.5
+		}
+	flags = { combat_wepon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_zora_sword"
+	slot = weapon
+}
+
+feathered_edge = {
+	quality = 2
+	monthly_character_prestige = 1.2
+	rito_opinion = 5
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_feathered_edge"
+	slot = weapon
+}
+
+gerudo_scimitar = {
+	quality = 1
+	monthly_character_prestige = 0.2
+	gerudo_opinion = 2
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_gerudo_scimitar"
+	slot = weapon
+}
+
+moonlight_scimitar = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 2
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		terrain_desert = 0.5
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_moonlight_scimitar"
+	slot = weapon
+}
+
+eightfold_blade = {
+	monthly_character_prestige = 1.5
+	combat_rating = 2
+	quality = 2
+	sheika_opinion = 5
+	yiga_opinion = -5
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		terrain_hills = 0.5
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_eightfold_blade"
+	slot = weapon
+}
+
+ancient_short_sword = {
+	monthly_character_prestige = 1.2
+	martial = 2
+	combat_rating = 2
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_ancient_short_sword"
+	slot = weapon
+}
+
+rusty_broadsword = {
+	monthly_character_prestige = 0.1
+	martial = 1
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_rusty_broadsword"
+	slot = weapon
+}
+
+royal_guard_sword = {
+	monthly_character_prestige = 2
+	martial = 5
+	combat_rating = 2.5
+	quality = 3
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		heavy_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_guard_sword"
+	slot = weapon
+}
+
+flameblade = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 1.2
+	quality = 2
+	vassal_opinion = 3
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		terrain_mountain = 0.5
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_flameblade"
+	slot = weapon
+}
+
+frostblade = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 1.2
+	quality = 2
+	vassal_opinion = 3
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		terrain_desert = 0.5
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_frostblade"
+	slot = weapon
+}
+
+thunderblade = {
+	monthly_character_prestige = 1.2
+	martial = 2
+	combat_rating = 1.2
+	quality = 2
+	vassal_opinion = 3
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		terrain_hills = 0.5
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_thunderblade"
+	slot = weapon
+}
+
+boko_club = {
+	monthly_character_prestige = 0.1
+	martial = 1
+	combat_rating = 0.5
+	monsters_opinion = 1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_boko_club"
+	slot = weapon
+}
+
+spiked_boko_club = {
+	monthly_character_prestige = 0.5
+	martial = 3
+	combat_rating = 1.5
+	quality = 2
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_spiked_boko_club"
+	slot = weapon
+}
+
+dragonbone_boko_club = {
+	monthly_character_prestige = 1
+	martial = 5
+	combat_rating = 3
+	quality = 3
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		light_cavalry = 0.5
+		light_infantry = 0.5
+		}
+	flags = { combat_weapon mace combat_tier_3 }
+	stacking = no
+	picture = "GFX_dragonbone_boko_club"
+	slot = weapon
+}
+
+lizal_boomerang = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_lizal_boomerang"
+	slot = weapon
+}
+
+lizal_forked_boomerang = {
+	monthly_character_prestige = 0.2
+	martial = 1
+	combat_rating = 1.5
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_lizal_forked_boomerang"
+	slot = weapon
+}
+
+lizal_triboomerang = {
+	monthly_character_prestige = 1.5
+	martial = 3
+	combat_rating = 3
+	command_modifier = {
+		heavy infantry = 0.5
+		pikemen = 0.5
+	}
+	quality = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_lizal_triboomerang"
+	slot = weapon
+}
+
+guardian_sword = {
+	monthly_character_prestige = 1
+	martial = 1
+	combat_rating = 1
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_guardian_sword"
+	slot = weapon
+}
+
+guardian_sword_plus = {
+	monthly_character_prestige = 1.5
+	martial = 3
+	combat_rating = 1.5
+	quality = 2
+	active = {
+		age = 14
+	}
+	combat_modifier = {
+		heavy_infantry = 0.5
+		}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_guardia_sword_plus"
+	slot = weapon
+}
+
+guardian_sword_plustwo = {
+	monthly_character_prestige = 2.25
+	martial = 5
+	combat_rating = 3
+	command_modifier = {
+		heavy_infantry = 1
+	}
+	quality = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_guardian_sword_plustwo"
+	slot = weapon
+}
+
+lynel_sword = {
+	monthly_character_prestige = 1.5
+	martial = 3
+	combat_rating = 1.75
+	command_modifier = {
+		cavalry = 0.75
+	}
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_lynel_sword"
+	slot = weapon
+}
+
+mighty_lynel_sword = {
+	monthly_character_prestige = 2
+	martial = 5
+	combat_rating = 2.25
+	vassal_opinion = 5
+	command_modifier = {
+		cavalry = 1.5
+	}
+	quality = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_mighty_lynel_sword"
+	slot = weapon
+}
+
+savage_lynel_sword = {
+	monthly_character_prestige = 3
+	martial = 8
+	combat_rating = 3.25
+	command_modifier = {
+		cavalry = 1.75
+	}
+	quality = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_savage_lynel_sword"
+	slot = weapon
+}
+
+fire_rod = {
+	monthly_character_prestige = 0.25
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_fire_rod"
+	slot = weapon
+}
+
+meteor_rod = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.8
+	command_modifier = {
+		light_infantry = 0.25
+		terrain_mountain = 0.25
+	}
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_meteor_rod"
+	slot = weapon
+}
+
+ice_rod = {
+	monthly_character_prestige = 0.25
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_ice_rod"
+	slot = weapon
+}
+
+blizzard_rod = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.8
+	command_modifier = {
+		light_infantry = 0.25
+		terrain_desert =0.25
+	}
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_blizzard_rod"
+	slot = weapon
+}
+
+lightning_rod = {
+	monthly_character_prestige = 0.25
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_lightning_rod"
+	slot = weapon
+}
+
+thunderstorm_rod = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.8
+	quality = 2
+	combat_modifier = {
+		light_infantry = 0.25
+		terrain_hills = 0.25
+		}
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_thunderstorm_rod"
+	slot = weapon
+}
+
+vicious_sickle = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.5
+	command_modifier = {
+		light_infantry = 0.5
+	}
+	quality = 2
+	yiga_opinion = 5
+	sheika_opinion = -5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_vicious_sickle"
+	slot = weapon
+}
+
+demon_carver = {
+	monthly_character_prestige = 0.75
+	combat_rating = 1.5
+	command_modifier = {
+		light_infantry = 0.75
+	}
+	quality = 2
+	yiga_opinion = 7
+	sheika_opinion = -7
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_demon_carver"
+	slot = weapon
+}
+
+bokoblin_arm = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.1
+	quality = 1
+	monsters_opinion = -5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_bokoblin_arm"
+	slot = weapon
+}
+
+lizalfos_arm = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.1
+	monsters_opinion = -5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_lizalfos_arm"
+	slot = weapon
+}
+
+korok_leaf = {
+	monthly_character_prestige = 0.25
+	combat_rating = 0.1
+	quality = 1
+	korok_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_korok_leaf"
+	slot = weapon
+}
+
+farming_hoe = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon lance combat_tier_1 }
+	stacking = no
+	picture = "GFX_farming_hoe"
+	slot = weapon
+}
+
+boat_oar = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon lance combat_tier_1 }
+	stacking = no
+	picture = "GFX_boat_oar"
+	slot = weapon
+}
+
+woodcutters_axe = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.55
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon axe combat_tier_1 }
+	stacking = no
+	picture = "GFX_woodcutters_axe"
+	slot = weapon
+}
+
+double_axe = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.75
+	quality = 1
+	vassal opinion = 1
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_forest = 0.1
+	}
+	flags = { combat_weapon axe combat_tier_1 }
+	stacking = no
+	picture = "GFX_woodcutters_axe"
+	slot = weapon
+}
+
+iron_sledgehammer = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.55
+	quality = 1
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_mountain = 0.1
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_iron_sledgehammer"
+	slot = weapon
+}
+
+giant_boomerang = {
+	monthly_character_prestige = 0.5
+	combat_rating = 1
+	quality = 2
+	vassal_opinion = 3
+	martial = 1
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_plains = 0.2
+	}
+	flags = { combat_weapon axe combat_tier_2 }
+	stacking = no
+	picture = "GFX_giant_boomerang"
+	slot = weapon
+}
+
+travelers_claymore = {
+	monthly_character_prestige = 0.25
+	combat_rating = 1.2
+	quality = 1
+	vassal_opinion = 1
+	martial = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_travelers_claymore"
+	slot = weapon
+}
+
+soldiers_claymore = {
+	monthly_character_prestige = 0.3
+	combat_rating = 1.4
+	quality = 1
+	vassal_opinion = 3
+	martial = 2
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		heavy_infantry = 0.2
+		light_infantry = 0.2
+	}
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_soldiers_claymore"
+	slot = weapon
+}
+
+knights_claymore = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 2
+	vassal_opinion = 5
+	martial = 5
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		heavy_infantry = 0.5
+		light_infantry = 0.25
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_knights_claymore"
+	slot = weapon
+}
+
+royal_claymore = {
+	monthly_character_prestige = 1.3
+	combat_rating = 2.5
+	quality = 3
+	vassal_opinion = 8
+	martial = 7
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		heavy_infantry = 0.75
+		light_infantry = 0.3
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_claymore"
+	slot = weapon
+}
+
+silver_longsword = {
+	monthly_character_prestige = 0.75
+	combat_rating = 1.5
+	quality = 2
+	zora_opinion = 3
+	martial = 2
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		pikemen = 0.5
+		light_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_2 }
+	stacking = no
+	picture = "GFX_silver_longsword"
+	slot = weapon
+}
+
+cobble_crusher = {
+	monthly_character_prestige = 0.5
+	combat_rating = 1.5
+	quality = 2
+	goron_opinion = 3
+	martial = 2
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_cobble_crusher"
+	slot = weapon
+}
+
+stone_smasher = {
+	monthly_character_prestige = 1.5
+	combat_rating = 1.3
+	quality = 2
+	goron_opinion = 4
+	martial = 5
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		heavy_infantry = 0.75
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_stone_smasher"
+	slot = weapon
+}
+
+golden_claymore = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 3
+	gerudo_opinion = 10
+	martial = 5
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_desert = 0.5
+		light_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_golden_claymore"
+	slot = weapon
+}
+
+eightfold_longblade = {
+	monthly_character_prestige = 1.3
+	combat_rating = 2
+	quality = 3
+	sheika_opinion = 10
+	martial = 5
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_hills = 0.5
+		light_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_eightfold_longblade"
+	slot = weapon
+}
+
+edge_of_duality = {
+	monthly_character_prestige = 1.5
+	combat_rating = 2.5
+	quality = 3
+	sheika_opinion = 8
+	hylians_opinion = 8
+	martial = 9
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_hills = 0.5
+		terrain_plains = 0.5
+		light_infantry = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_edge_of_duality"
+	slot = weapon
+}
+
+ancient_bladesaw = {
+	monthly_character_prestige = 1.8
+	combat_rating = 2.5
+	quality = 3
+	sheika_opinion = 5
+	monsters_opinion = -10
+	yiga_opinion = -5
+	martial = 10
+	stewardship = 2
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_plains = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_ancient_bladesaw"
+	slot = weapon
+}
+
+rusty_claymore = {
+	monthly_character_prestige = 0.25
+	combat_rating = 0.2
+	quality = 1
+	vassa opinion = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon sword combat_tier_1 }
+	stacking = no
+	picture = "GFX_rusty_claymore"
+	slot = weapon
+}
+
+royal_guards_claymore = {
+	monthly_character_prestige = 2
+	combat_rating = 3
+	quality = 3
+	hylian_opinion = 15
+	monsters_opinion = -15
+	yiga_opinion = -5
+	martial = 12
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_plains = 0.9
+		heavy_infantry = 0.9
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_guards_claymore"
+	slot = weapon
+}
+
+great_flameblade = {
+	monthly_character_prestige = 1.2
+	combat_rating = 2.5
+	quality = 3
+	vassal_opinion = 7
+	martial = 7
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_mountains = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_great_flameblade"
+	slot = weapon
+}
+
+great_frostblade = {
+	monthly_character_prestige = 1.2
+	combat_rating = 2.5
+	quality = 3
+	vassal_opinion = 7
+	martial = 7
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_desert = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_great_frostblade"
+	slot = weapon
+}
+
+great_thunderblade = {
+	monthly_character_prestige = 1.2
+	combat_rating = 2.5
+	quality = 3
+	vassal_opinion = 7
+	martial = 7
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_hills = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_great_thunderblade"
+	slot = weapon
+}
+
+sword_of_the_six_sages = {
+	monthly_character_prestige = 5
+	combat_rating = 5
+	quality = 3
+	vassal_opinion = 20
+	martial = 15
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_hills = 0.5
+		terrain_mountains = 0.5
+		terrain_desert = 0.5
+		terrain_plains = 0.5
+		terrain_forest = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_sword_of_the_six_sages"
+	slot = weapon
+}
+
+biggoron_sword = {
+	monthly_character_prestige = 1.8
+	combat_rating = 3
+	quality = 3
+	vassal_opinion = 5
+	goron_opinion = 15
+	biggoron_opinion = 25
+	martial = 13
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_mountains = 0.5
+		terrain_desert = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_biggoron_sword"
+	slot = weapon
+}
+
+fierce_deity_sword = {
+	monthly_character_prestige = 2
+	combat_rating = 5
+	quality = 3
+	vassal_opinion = 5
+	terminean_opinion = 20
+	martial = 18
+	active = {
+		age = 14
+	}
+        command_modifier = {
+		terrain_plains = 0.5
+		light_infantry = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon sword combat_tier_3 }
+	stacking = no
+	picture = "GFX_fierce_deity_sword"
+	slot = weapon
+}
+
+boko_bat = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.3
+	quality = 1
+	monsters_opinion = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_boko_bat"
+	slot = weapon
+}
+
+spiked_boko_bat = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.9
+	quality = 1
+	monsters_opinion = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_spiked_boko_bat"
+	slot = weapon
+}
+
+dragonbone_boko_bat = {
+	monthly_character_prestige = 0.4
+	combat_rating = 1.8
+	quality = 2
+	monsters_opinion = 8
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_dragonbone_boko_bat"
+	slot = weapon
+}
+
+moblin_club = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.5
+	quality = 1
+	monsters_opinion = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_moblin_club"
+	slot = weapon
+}
+
+spiked_moblin_club = {
+	monthly_character_prestige = 0.5
+	combat_rating = 1.2
+	quality = 2
+	monsters_opinion = 6
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_spiked_moblin_club"
+	slot = weapon
+}
+
+dragonbone_moblin_club = {
+	monthly_character_prestige = 1.0
+	combat_rating = 1.9
+	quality = 2
+	monsters_opinion = 10
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_dragonbone_moblin_club"
+	slot = weapon
+}
+
+ancient_battle_axe = {
+	monthly_character_prestige = 0.7
+	combat_rating = 1
+	quality = 2
+	monsters_opinion = -5
+	hylians_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon axe combat_tier_2 }
+	stacking = no
+	picture = "GFX_ancient_battle_axe"
+	slot = weapon
+}
+
+ancient_battle_axe_plus = {
+	monthly_character_prestige = 1
+	combat_rating = 1.45
+	quality = 2
+	monsters_opinion = -7
+	hylians_opinion = 7
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon axe combat_tier_2 }
+	stacking = no
+	picture = "GFX_ancient_battle_axe_plus"
+	slot = weapon
+}
+
+ancient_battle_axe_plustwo = {
+	monthly_character_prestige = 1.4
+	combat_rating = 1.9
+	quality = 3
+	monsters_opinion = -10
+	hylians_opinion = 10
+	martial = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon axe combat_tier_3 }
+	stacking = no
+	picture = "GFX_ancient_battle_axe_plustwo"
+	slot = weapon
+}
+
+lynel_crusher = {
+	monthly_character_prestige = 1
+	combat_rating = 1.5
+	quality = 2
+	monsters_opinion = 10
+	martial = 4
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_2 }
+	stacking = no
+	picture = "GFX_lynel_crusher"
+	slot = weapon
+}
+
+mighty_lynel_crusher = {
+	monthly_character_prestige = 1.5
+	combat_rating = 2
+	quality = 3
+	monsters_opinion = 15
+	martial = 7
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		cavalry = 0.25
+	}
+	flags = { combat_weapon mace combat_tier_3 }
+	stacking = no
+	picture = "GFX_mighty_lynel_crusher"
+	slot = weapon
+}
+
+savage_lynel_crusher = {
+	monthly_character_prestige = 2
+	combat_rating = 3.5
+	quality = 3
+	monsters_opinion = 20
+	martial = 9
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		cavalry = 0.75
+	}
+	flags = { combat_weapon mace combat_tier_3 }
+	stacking = no
+	picture = "GFX_savage_lynel_crusher"
+	slot = weapon
+}
+
+windcleaver = {
+	monthly_character_prestige = 0.5
+	combat_rating = 1.2
+	quality = 3
+	yiga_opinion = 15
+	sheika_opinion = -15
+	martial = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		light_infantry = 0.75
+	}
+	flags = { combat_weapon mace combat_tier_3 }
+	stacking = no
+	picture = "GFX_windcleaver"
+	slot = weapon
+}
+
+moblin arm = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.2
+	quality = 1
+	monsters_opinion = -2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon mace combat_tier_1 }
+	stacking = no
+	picture = "GFX_moblin_arm"
+	slot = weapon
+}
+
+wooden mop = {
+	monthly_character_prestige = 0.01
+	combat_rating = 0.3
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_wooden_mop"
+	slot = weapon
+}
+
+farmers_pitchfork = {
+	monthly_character_prestige = 0.01
+	combat_rating = 0.4
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_farmers_pitchfork"
+	slot = weapon
+}
+
+fishing_harpoon = {
+	monthly_character_prestige = 0.04
+	combat_rating = 0.6
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_farmers_pitchfork"
+	slot = weapon
+}
+
+throwing_spear = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.8
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_throwing_spear"
+	slot = weapon
+}
+
+travelers_spear = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.8
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_travelers_spear"
+	slot = weapon
+}
+
+soldiers_spear = {
+	monthly_character_prestige = 0.5
+	combat_rating = 1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_soldiers_spear"
+	slot = weapon
+}
+
+knights_halberd = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_knights_halberd"
+	slot = weapon
+}
+
+royal_halberd = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1.2
+	quality = 2
+	hylian_opinion = 3
+	martial = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_royal_halber"
+	slot = weapon
+}
+
+forest_dweller_spear = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 2
+	korok_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_forest = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_forest_dweller_spear"
+	slot = weapon
+}
+
+zora_spear = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 2
+	zora_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		pikemen = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_zora_spear"
+	slot = weapon
+}
+
+silverscale_spear = {
+	monthly_character_prestige = 1.4
+	combat_rating = 1.1
+	quality = 2
+	zora_opinion = 7
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		pikemen = 0.3
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_silverscale_spear"
+	slot = weapon
+}
+
+ceremonial_trident = {
+	monthly_character_prestige = 1.9
+	combat_rating = 1.4
+	quality = 3
+	zora_opinion = 9
+	martial = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		pikemen = 0.35
+	}
+	flags = { combat_weapon spear combat_tier_3 }
+	stacking = no
+	picture = "GFX_ceremonial_trident"
+	slot = weapon
+}
+
+drillshaft = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 2
+	goron_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_drillshaft"
+	slot = weapon
+}
+
+feathered_spear = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 2
+	rito_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_feathered_spear"
+	slot = weapon
+}
+
+gerudo_spear = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 2
+	gerudo_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_gerudo_spear"
+	slot = weapon
+}
+
+serpentine_spear = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 2
+	sheika_opinion = 5
+	yiga_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_serpentine_spear"
+	slot = weapon
+}
+
+ancient_spear = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1
+	quality = 3
+	sheika_opinion = 5
+	monsters_opinion = -15
+	martial = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.25
+		heavy_infantry = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_3 }
+	stacking = no
+	picture = "GFX_ancient_spear"
+	slot = weapon
+}
+
+rusty_halberd = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.2
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_rusty_halberd"
+	slot = weapon
+}
+
+royal_guards_spear = {
+	monthly_character_prestige = 1.8
+	combat_rating = 2.1
+	quality = 3
+	hylian_opinion = 10
+	martial = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_plains = 0.5
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon spear combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_guards_spear"
+	slot = weapon
+}
+
+flamespear = {
+	monthly_character_prestige = 1
+	combat_rating = 1.2
+	quality = 2
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.2
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_flamespear"
+	slot = weapon
+}
+
+frostspear = {
+	monthly_character_prestige = 1
+	combat_rating = 1.2
+	quality = 2
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_frostspear"
+	slot = weapon
+}
+
+thunderspear = {
+	monthly_character_prestige = 1
+	combat_rating = 1.2
+	quality = 2
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.2
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_thunderspear"
+	slot = weapon
+}
+
+bokospear = {
+	monthly_character_prestige = 0.01
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_bokospear"
+	slot = weapon
+}
+
+spiked_bokospear = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.3
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_spiked_bokospear"
+	slot = weapon
+}
+
+dragonbone_bokospear = {
+	monthly_character_prestige = 0.25
+	combat_rating = 0.6
+	quality = 2
+	martial = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_dragonbone_bokospear"
+	slot = weapon
+}
+
+moblin_spear = {
+	monthly_character_prestige = 0.03
+	combat_rating = 0.2
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_moblin_spear"
+	slot = weapon
+}
+
+spiked_moblin_spear = {
+	monthly_character_prestige = 0.06
+	combat_rating = 0.5
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_spiked_moblin_spear"
+	slot = weapon
+}
+
+dragonbone_moblin_spear = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.9
+	quality = 2
+	martial = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_dragonbone_moblin_spear"
+	slot = weapon
+}
+
+lizal_spear = {
+	monthly_character_prestige = 0.03
+	combat_rating = 0.3
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_lizal_spear"
+	slot = weapon
+}
+
+enhanced_lizal_spear = {
+	monthly_character_prestige = 0.09
+	combat_rating = 0.7
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_1 }
+	stacking = no
+	picture = "GFX_enhanced_lizal_spear"
+	slot = weapon
+}
+
+forked_lizal_spear = {
+	monthly_character_prestige = 0.4
+	combat_rating = 1.1
+	quality = 2
+	martial = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_forked_lizal_spear"
+	slot = weapon
+}
+
+guardian_spear = {
+	monthly_character_prestige = 1
+	combat_rating = 1.2
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_guardian_spear"
+	slot = weapon
+}
+
+guardian_spear_plus = {
+	monthly_character_prestige = 1.4
+	combat_rating = 1.6
+	quality = 2
+	martial = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_guardian_spear_plus"
+	slot = weapon
+}
+
+guardian_spear_plustwo = {
+	monthly_character_prestige = 1.8
+	combat_rating = 2
+	quality = 3
+	martial = 3
+	sheika_opinion = 5
+	monsters_opinion = -5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_3 }
+	stacking = no
+	picture = "GFX_guardian_spear_plustwo"
+	slot = weapon
+}
+
+lynel_spear = {
+	monthly_character_prestige = 1.4
+	combat_rating = 1.6
+	quality = 2
+	martial = 1
+	monsters_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_2 }
+	stacking = no
+	picture = "GFX_lynel_spear"
+	slot = weapon
+}
+
+mighty_lynel_spear = {
+	monthly_character_prestige = 1.9
+	combat_rating = 2.1
+	quality = 3
+	martial = 3
+	monsters_opinion = 10
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon spear combat_tier_3 }
+	stacking = no
+	picture = "GFX_mighty_lynel_spear"
+	slot = weapon
+}
+
+savage_lynel_spear = {
+	monthly_character_prestige = 2.3
+	combat_rating = 2.5
+	quality = 3
+	martial = 5
+	monsters_opinion = 15
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		cavalry = 0.25
+	}
+	flags = { combat_weapon spear combat_tier_3 }
+	stacking = no
+	picture = "GFX_savage_lynel_spear"
+	slot = weapon
+}
+
+wooden_bow = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.2
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_wooden_bow"
+	slot = weapon
+}
+
+travelers_bow = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.4
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_travelers_bow"
+	slot = weapon
+}
+
+soldiers_bow = {
+	monthly_character_prestige = 0.4
+	combat_rating = 0.6
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_soldiers_bow"
+	slot = weapon
+}
+
+knights_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	martial = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_knights_bow"
+	slot = weapon
+}
+
+royal_bow = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1.5
+	quality = 3
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		archers = 0.2
+	}
+	flags = { combat_weapon bow combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_bow"
+	slot = weapon
+}
+
+forest_dwellers_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	korok_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_forest = 0.2
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_forest_dwellers_bow"
+	slot = weapon
+}
+
+silver_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	zora_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		pikemen = 0.2
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_silver_bow"
+	slot = weapon
+}
+
+swallow_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	rito_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.2
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_swallow_bow"
+	slot = weapon
+}
+
+falcon_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	rito_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.4
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_falcon_bow"
+	slot = weapon
+}
+
+golden_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	gerudo_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_golden_bow"
+	slot = weapon
+}
+
+phrenic_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1
+	quality = 2
+	sheika_opinion = 5
+	yiga_opinion = -5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.2
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_phrenic_bow"
+	slot = weapon
+}
+
+ancient_bow = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1.4
+	quality = 3
+	sheika_opinion = 5
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.4
+	}
+	flags = { combat_weapon bow combat_tier_3 }
+	stacking = no
+	picture = "GFX_ancient_bow"
+	slot = weapon
+}
+
+royal_guards_bow = {
+	monthly_character_prestige = 1.8
+	combat_rating = 2
+	quality = 3
+	hylian_opinion = 10
+	martial = 4
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_plains = 0.8
+	}
+	flags = { combat_weapon bow combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_guards_bow"
+	slot = weapon
+}
+
+boko_bow = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.2
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_boko_bow"
+	slot = weapon
+}
+
+spiked_boko_bow = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.4
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_spiked_boko_bow"
+	slot = weapon
+}
+
+dragonbone_boko_bow = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.8
+	quality = 2
+	martial = 1
+	monsters_opinion = 3
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_dragonbone_boko_bow"
+	slot = weapon
+}
+
+lizal_bow = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.3
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_lizal_bow"
+	slot = weapon
+}
+
+strengthened_lizal_bow = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.6
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_1 }
+	stacking = no
+	picture = "GFX_strengthened_lizal_bow"
+	slot = weapon
+}
+
+steel_lizal_bow = {
+	monthly_character_prestige = 0.6
+	combat_rating = 1.1
+	quality = 2
+	martial = 2
+	monsters_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_steel_lizal_bow"
+	slot = weapon
+}
+
+lynel_bow = {
+	monthly_character_prestige = 0.8
+	combat_rating = 1.2
+	quality = 2
+	martial = 3
+	monsters_opinion = 7
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_lynel_bow"
+	slot = weapon
+}
+
+mighty_lynel_bow = {
+	monthly_character_prestige = 1.2
+	combat_rating = 1.8
+	quality = 3
+	martial = 5
+	monsters_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		cavalry = 0.4
+	}
+	flags = { combat_weapon bow combat_tier_3 }
+	stacking = no
+	picture = "GFX_mighty_lynel_bow"
+	slot = weapon
+}
+
+savage_lynel_bow = {
+	monthly_character_prestige = 1.8
+	combat_rating = 2.2
+	quality = 3
+	martial = 8
+	monsters_opinion = 15
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		cavalry = 0.8
+	}
+	flags = { combat_weapon bow combat_tier_3 }
+	stacking = no
+	picture = "GFX_savage_lynel_bow"
+	slot = weapon
+}
+
+duplex_bow = {
+	monthly_character_prestige = 1
+	combat_rating = 1
+	quality = 2
+	martial = 1
+	yiga_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon bow combat_tier_2 }
+	stacking = no
+	picture = "GFX_duplex_bow"
+	slot = weapon
+}
+
+### Shields ###
+
+hylian_shield = {
+	monthly_character_prestige = 3
+	combat_rating = 4.5
+	quality = 3
+	martial = 3
+	hylians_opinion = 10
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_hylian_shield"
+	slot = shield
+}
+
+pot_lid = {
+	monthly_character_prestige = 0.01
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_pot_lid"
+	slot = shield
+}
+
+wooden_shield = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.15
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_wooden_shield"
+	slot = shield
+}
+
+emblazoned_shield = {
+	monthly_character_prestige = 0.07
+	combat_rating = 0.15
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_emblazoned_shield"
+	slot = shield
+}
+
+hunters_shield = {
+	monthly_character_prestige = 0.06
+	combat_rating = 0.15
+	quality = 1
+	hylians_opinion = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_hunters_shield"
+	slot = shield
+}
+
+fishermans_shield = {
+	monthly_character_prestige = 0.05
+	combat_rating = 0.15
+	quality = 1
+	zora_opinion = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_fishermans_shield"
+	slot = shield
+}
+
+travelers_shield = {
+	monthly_character_prestige = 0.07
+	combat_rating = 0.2
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_fishermans_shield"
+	slot = shield
+}
+
+soldiers_shield = {
+	monthly_character_prestige = 0.08
+	combat_rating = 0.8
+	hylians_opinion = 3
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_fishermans_shield"
+	slot = shield
+}
+
+knights_shield = {
+	monthly_character_prestige = 0.11
+	combat_rating = 2
+	hylians_opinion = 5
+	martial = 2
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.2
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_knights_shield"
+	slot = shield
+}
+
+royal_shield = {
+	monthly_character_prestige = 0.15
+	combat_rating = 2.7
+	hylians_opinion = 8
+	martial = 3
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.4
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal_shield"
+	slot = shield
+}
+
+forest_dwellers_shield = {
+	monthly_character_prestige = 0.18
+	combat_rating = 1.5
+	korok_opinion = 2
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_forest = 0.2
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_forest_dwellers_shield"
+	slot = shield
+}
+
+silver_shield = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.9
+	zora_opinion = 2
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		pikemen = 0.2
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_silver_shield"
+	slot = shield
+}
+
+kite_shield = {
+	monthly_character_prestige = 0.16
+	combat_rating = 0.7
+	rito_opinion = 3
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.25
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_kite_shield"
+	slot = shield
+}
+
+gerudo_shield = {
+	monthly_character_prestige = 0.2
+	combat_rating = 1
+	gerudo_opinion = 2
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_gerudo_shield"
+	slot = shield
+}
+
+radiant_shield = {
+	monthly_character_prestige = 0.26
+	combat_rating = 1.7
+	gerudo_opinion = 5
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.4
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_radiant_shield"
+	slot = shield
+}
+
+daybreaker = {
+	monthly_character_prestige = 0.6
+	combat_rating = 2.4
+	gerudo_opinion = 10
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.75
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_daybreaker"
+	slot = shield
+}
+
+shield_of_the_minds_eye = {
+	monthly_character_prestige = 0.16
+	combat_rating = 0.8
+	sheika_opinion = 2
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.2
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_shield_of_the_minds_eye"
+	slot = shield
+}
+
+ancient_shield = {
+	monthly_character_prestige = 0.32
+	combat_rating = 3.5
+	sheika_opinion = 10
+	monsters_opinion = -10
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.7
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_ancient_shield"
+	slot = shield
+}
+
+rusty_shield = {
+	monthly_character_prestige = 0.08
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_rusty_shield"
+	slot = shield
+}
+
+royal_guards_shield = {
+	monthly_character_prestige = 1.4
+	combat_rating = 3.5
+	quality = 3
+	hylians_opinion = 5
+	royal_hylians_opinion = 10
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_royal guards_shield"
+	slot = shield
+}
+
+heros_shield = {
+	monthly_character_prestige = 4.5
+	combat_rating = 3.2
+	quality = 3
+	hylians_opinion = 10
+	royal_hylians_opinion = 15
+	new_hylians_opinion = 20
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_heros_shield"
+	slot = shield
+}
+
+boko_shield = {
+	monthly_character_prestige = 0.03
+	combat_rating = 0.15
+	quality = 1
+	monsters_opinion = 1
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_boko_shield"
+	slot = shield
+}
+
+spiked_boko_shield = {
+	monthly_character_prestige = 0.07
+	combat_rating = 0.5
+	quality = 1
+	monsters_opinion = 3
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_spiked_boko_shield"
+	slot = shield
+}
+
+dragonbone_boko_shield = {
+	monthly_character_prestige = 0.08
+	combat_rating = 1.2
+	quality = 2
+	monsters_opinion = 5
+	martial = 1
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_dragonbone_boko_shield"
+	slot = shield
+}
+
+lizal_shield = {
+	monthly_character_prestige = 0.08
+	combat_rating = 0.75
+	quality = 1
+	monsters_opinion = 5
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_1 }
+	stacking = no
+	picture = "GFX_lizal_shield"
+	slot = shield
+}
+
+reinforced_lizal_shield = {
+	monthly_character_prestige = 0.12
+	combat_rating = 1.1
+	quality = 2
+	monsters_opinion = 7
+	martial = 1
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_reinforced_lizal_shield"
+	slot = shield
+}
+
+steel_lizal_shield = {
+	monthly_character_prestige = 0.5
+	combat_rating = 1.72
+	quality = 3
+	monsters_opinion = 15
+	martial = 4
+	active = {
+		age = 14
+	}	
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_steel_lizal_shield"
+	slot = shield
+}
+
+guardian_shield = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.9
+	quality = 2
+	monsters_opinion = 1
+	martial = 3
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_guardian_shield"
+	slot = shield
+}
+
+guardian_shield_plus = {
+	monthly_character_prestige = 0.65
+	combat_rating = 1.5
+	quality = 3
+	monsters_opinion = 6
+	martial = 5
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_guardian_shield_plus"
+	slot = shield
+}
+
+guardian_shield_plustwo = {
+	monthly_character_prestige = 1
+	combat_rating = 2.1
+	quality = 3
+	monsters_opinion = 9
+	martial = 7
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_guardian_shield_plustwo"
+	slot = shield
+}
+
+lynel_shield = {
+	monthly_character_prestige = 0.6
+	combat_rating = 1.5
+	quality = 2
+	monsters_opinion = 2
+	martial = 3
+	active = {
+		age = 14
+	}	
+	flags = { combat_weapon shield combat_tier_2 }
+	stacking = no
+	picture = "GFX_lynel_shield"
+	slot = shield
+}
+
+mighty_lynel_shield = {
+	monthly_character_prestige = 0.75
+	combat_rating = 2.2
+	quality = 3
+	monsters_opinion = 8
+	martial = 6
+	active = {
+		age = 14
+	}	
+	command_modifier = {
+		cavalry = 0.5
+	}
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_mighty_lynel_shield"
+	slot = shield
+}
+
+savage_lynel_shield = {
+	monthly_character_prestige = 1
+	combat_rating = 3.1
+	quality = 3
+	monsters_opinion = 15
+	martial = 8
+	active = {
+		age = 14
+	}	
+	command_modifier = {
+		cavalry = 0.75
+	}
+	flags = { combat_weapon shield combat_tier_3 }
+	stacking = no
+	picture = "GFX_savage_lynel_shield"
+	slot = shield
+}
+
+### Crowns and helms ###
+
+amber_earrings = {
+	monthly_character_prestige = 0.5
+	intrigue = 2
+	quality = 3
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_cursed_diamond_crown"
+	slot = crown
+}
+
+barbarian_helm = {
+	quality = 3
+	monthly_character_prestige = 0.75
+	tribal_vassal_opinion = 5
+	flags = { christian crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_barbarian_helm"		
+	slot = crown
+}
+
+emerald_scepter = {
+	quality = 3
+	monthly_character_prestige = 0.2
+	vassal_opinion = 3
+	flags = { scepter jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_scepter_emerald"
+	slot = scepter
+}
+
+bokoblin_mask = {
+	quality = 1
+	monthly_character_prestige = 0.10
+	vassal_opinion = -2
+	flags = { crown crown_jewel }
+	stacking = no
+	picture = "GFX_bokoblin_mask"		
+	slot = crown
+}
+
+ruby_scepter = {
+	quality = 2
+	monthly_character_prestige = 0.15
+	vassal_opinion = 2
+	flags = { scepter jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_sceptre_ruby"	
+	slot = scepter
+}
+
+cap_of_the_hero = {
+	quality = 3
+	monthly_character_prestige = 1
+	vassal_opinion = 5
+	flags = { crown crown_jewel }
+	stacking = no
+	picture = "GFX_cap_of_the_hero"
+	slot = crown
+}
+
+noble_scepter = {
+	quality = 1
+	monthly_character_prestige = 0.05
+	vassal_opinion = 1
+	flags = { scepter jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_royal_scepter"
+	slot = scepter
+}
+
+ruby_earrings = {
+	quality = 2
+	monthly_character_prestige = 0.5
+	intrigue = 2
+	vassal_opinion = 3
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_ruby_earrings"	
+	slot = crown
+}
+
+cap_of_the_wild = {
+	quality = 3
+	monthly_character_prestige = 1
+	vassal_opinion = 5
+	flags = { crown crown_jewel }
+	stacking = no
+	picture = "GFX_cap_of_the_wild"
+	slot = crown
+}
+
+cap_of_the_sky = {
+	quality = 3
+	monthly_character_prestige = 1
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_cap_of_the_sky"	
+	slot = crown
+}
+
+cap_of_time = {
+	quality = 3
+	monthly_character_prestige = 1
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_cap_of_time"
+	slot = crown
+}
+
+cap_of_twilight = {
+	quality = 3
+	monthly_character_prestige = 1
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_cap_of_twilight"
+	slot = crown
+}
+
+climbers_bandanna = {
+	quality = 1
+	monthly_character_prestige = 0.1
+	martial = 1
+	combat_modifier = {
+		light_infantry = 0.2
+		}
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_climbers_bandanna"	
+	slot = crown
+}
+
+dark_hood = {
+	quality = 2
+	monthly_character_prestige = 1
+	vassal_opinion = -1
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_dark_hood"
+	slot = crown
+}
+
+desert_voe_headband = {
+	quality = 2
+	monthly_character_prestige = 0.5
+	vassal_opinion = 3
+	combat_modifier = {
+		terrain_desert = 0.5
+		}
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_desert_voe_headband"
+	slot = crown
+}
+
+diamond_circlet = {
+	quality = 2
+	monthly_character_prestige = 1.5
+	vassal_opinion = 5
+	intrigue = 3
+	flags = { circlet jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_diamond_circlet"	
+	slot = crown
+}
+
+fierce_deity_mask = {
+	quality = 3
+	monthly_character_prestige = 2
+	vassal_opinion = 10
+	martial = 5
+	combat_modifier = {
+		heavy_infantry = 0.5
+		light_infantry = 0.5
+		}
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_fierce_deity_mask"
+	slot = crown
+}
+
+flamebreaker_helm = {
+	quality = 2
+	monthly_character_prestige = 0.25
+	goron_opinion = 2
+	combat_modifier = {
+		heavy_infantry = 0.25
+		}	
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_flamebreaker_helm"
+	slot = crown
+}
+
+gerudo_veil = {
+	quality = 1
+	monthly_character_prestige = 0.1
+	gerudo_opinion = 1
+	combat_modifier = {
+		desert_terrain = 0.5
+		light_infantry = 0.5
+		}
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_gerudo_veil"
+	slot = crown
+}
+
+hylian_hood = {
+	quality = 1
+	monthly_character_prestige = 0.25
+	hylians_opinion = 1
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_hylian_hood"
+	slot = crown
+}
+
+korok_mask = {
+	quality = 2
+	monthly_character_prestige = 0.15
+	korok_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_crown_gold"
+	slot = crown
+}
+
+lizalfos_mask = {
+	quality = 1
+	monthly_character_prestige = 0.1
+	vassal_opinion = -1
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_lizalfos_mask"
+	slot = crown
+}
+
+lynel_mask = {
+	quality = 1
+	monthly_character_prestige = 0.3
+	vassal_opinion = -3
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_lynel_mask"
+	slot = crown
+}
+
+majoras_mask = {
+	quality = 3
+	monthly_character_prestige = 10
+	terminean_opinion = -50
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_majoras_mask"
+	slot = crown
+}
+
+midnas_helmet = {
+	quality = 3
+	monthly_character_prestige = 10
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_midnas_helmet"
+	slot = crown
+}
+
+moblin_mask = {
+	quality = 1
+	monthly_character_prestige = 3
+	vassal_opinion = -3
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_moblin_mask"
+	slot = crown
+}
+
+opal_earrings = {
+	quality = 2
+	monthly_character_prestige = 3
+	zora_opinion = 3
+	intrigue = 1
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_moblin_mask"
+	slot = crown
+}
+
+phantom_ganon_skull = {
+	quality = 3
+	monthly_character_prestige = 4
+	hylian_opinion = -10
+	royal_hylian_opinion = -10
+	goron_opinion = -10
+	zora_opinion = -10
+	korok_opinion = -10
+	rito_opinion = -10
+	sheika_opinion = -10
+	yiga_opinion = 10
+	monsters_opinion = 10
+	intrigue = 2
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_phantom_ganon_skull"
+	slot = crown
+}
+
+phantom_helmet = {
+	quality = 3
+	monthly_character_prestige = 8
+	new_hylian_opinion = -35
+	martial = 2
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_phantom_helmet"
+	slot = crown
+}
+
+radiant_mask = {
+	quality = 1
+	monthly_character_prestige = 3
+	monsters_opinion = -10
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_radiant_mask"
+	slot = crown
+}
+
+ravios_hood = {
+	quality = 3
+	monthly_character_prestige = 2
+	lorulean_opinion = 15
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_ravios_hood"
+	slot = crown
+}
+
+royal_guard_cap = {
+	quality = 3
+	monthly_character_prestige = 4
+	royal_hyrulean_opinion = 20
+	hyrulean_opinion = 20
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_royal_guard_cap"
+	slot = crown
+}
+
+ruby_circlet = {
+	quality = 2
+	monthly_character_prestige = 3
+	gerudo_opinion = 5
+	flags = { circlet jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_ruby_circlet"
+	slot = crown
+}
+
+rubber_helm = {
+	quality = 1
+	monthly_character_prestige = 3
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_rubber_helm"
+	slot = crown
+}
+
+salvager_headwear = {
+	quality = 2
+	monthly_character_prestige = 5
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_salvager_headwear"
+	slot = crown
+}
+
+sapphire_circlet = {
+	quality = 1
+	monthly_character_prestige = 3
+	gerudo_opinion = 2
+	intrigue = 1
+	flags = { circlet jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_sapphire_circlet"
+	slot = crown
+}
+
+sheiks_mask = {
+	quality = 3
+	monthly_character_prestige = 2
+	intrigue = 5
+	sheika_opinion = 10
+	hylian_opinion = 10
+	royal_hylian_opinion = 10
+	flags = { circlet jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_sapphire_circlet"
+	slot = crown
+}
+
+snowquill_headdress = {
+	quality = 2
+	monthly_character_prestige = 3
+	rito_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_snowquill_headdress"
+	slot = crown
+}
+
+soldiers_helm = {
+	quality = 2
+	monthly_character_prestige = 4
+	hylians_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_soldiers_helm"
+	slot = crown
+}
+
+stealth_mask = {
+	quality = 2
+	monthly_character_prestige = 2
+	sheika_opinion = 5
+	intrigue = 1
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_stealth_mask"
+	slot = crown
+}
+
+tingles_hood = {
+	quality = 1
+	monthly_character_prestige = 2
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_tingles_hood"
+	slot = crown
+}
+
+topaz_earrings = {
+	quality = 2
+	monthly_character_prestige = 3
+	intrigue = 1
+	gerudo_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_topaz_earrings"
+	slot = crown
+}
+
+vah_medoh_divine_helm = {
+	quality = 3
+	monthly_character_prestige = 4
+	rito_opinion = 25
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_vah_medoh_dh"
+	slot = crown
+}
+
+vah_naboris_divine_helm = {
+	quality = 3
+	monthly_character_prestige = 4
+	gerudo_opinion = 25
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_vah_naboris_dh"
+	slot = crown
+}
+
+vah_rudania_divine_helm = {
+	quality = 3
+	monthly_character_prestige = 4
+	goron_opinion = 25
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_vah_rudania_dh"
+	slot = crown
+}
+
+vah_ruta_divine_helm = {
+	quality = 3
+	monthly_character_prestige = 4
+	zora_opinion = 25
+	vassal_opinion = 5
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_vah_ruta_dh"
+	slot = crown
+}
+
+zants_helmet = {
+	quality = 3
+	monthly_character_prestige = 3
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_zants_helmet"
+	slot = crown
+}
+
+zora_helm = {
+	quality = 2
+	monthly_character_prestige = 3
+	zora_opinion = 10
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_zora_helm"
+	slot = crown
+}
+
+#armors
+
+ancient_cuirass = {
+	monthly_character_prestige = 4
+	combat_rating = 2
+	quality = 3
+	sheika_opinion = 10
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_ancient_cuirass"
+	slot = torso
+}
+
+barbarian_armor = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 3
+	martial = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_barbarian_armor"
+	slot = torso
+}
+
+climbing_gear = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.2
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_climbing_gear"
+	slot = torso
+}
+
+dark_tunic = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 2
+	monsters_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_dark_tunic"
+	slot = torso
+}
+
+desert_voe_spaulder = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 2
+	monsters_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_climbing_gear"
+	slot = torso
+}
+
+fierce_deity_armor = {
+	monthly_character_prestige = 9
+	combat_rating = 5
+	quality = 4
+	terminean_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_fierce_deity_armor"
+	slot = torso
+}
+
+flamebreaker_armor = {
+	monthly_character_prestige = 3
+	combat_rating = 1.5
+	quality = 3
+	goron_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_flamebreaker_armor"
+	slot = torso
+}
+
+gerudo_top = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.5
+	quality = 1
+	gerudo_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_gerudo_top"
+	slot = torso
+}
+
+hylian_tunic = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.75
+	quality = 2
+	hylian_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_hylian_tunic"
+	slot = torso
+}
+
+island_lobster_shirt = {
+	monthly_character_prestige = 5
+	combat_rating = 3
+	quality = 3
+	new_hylian_opinion = 30
+	active = {
+		age = 13
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_island_lobster_shirt"
+	slot = torso
+}
+
+nintendo_switch_shirt = {
+	monthly_character_prestige = 5
+	combat_rating = 0.1
+	quality = 1
+	vassal_opinion = 10
+	active = {
+		age = 12
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_nintendo_switch_shirt"
+	slot = torso
+}
+
+old_shirt = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_old_shirt"
+	slot = torso
+}
+
+phantom_armor = {
+	monthly_character_prestige = 8
+	combat_rating = 9
+	quality = 4
+	new_hylian_opinion = -30
+	martial = 2
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_phantom_armor"
+	slot = torso
+}
+
+phantom_ganon_armor = {
+	monthly_character_prestige = 4
+	combat_rating = 5
+	quality = 4
+	hylian_opinion = -10
+	royal_hylian_opinion = -10
+	goron_opinion = -10
+	zora_opinion = -10
+	korok_opinion = -10
+	rito_opinion = -10
+	sheika_opinion = -10
+	yiga_opinion = 10
+	monsters_opinion = 10
+	intrigue = 2
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_phantom_ganon_armor"
+	slot = torso
+}
+
+radiant_shirt = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 2
+	monsters_opinion = -5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_radiant_shirt"
+	slot = torso
+}
+
+royal_guard_uniform = {
+	monthly_character_prestige = 4
+	combat_rating = 3.5
+	quality = 4
+	hylian_opinion = 10
+	royal_hylian_opinion = 20
+	humans_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 1
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_royal_guard_uniform"
+	slot = torso
+}
+
+rubber_armor = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_rubber_armor"
+	slot = torso
+}
+
+salvager_vest = {
+	monthly_character_prestige = 5
+	combat_rating = 2.5
+	quality = 4
+	vassa_opinion = 10
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_salvager_vest"
+	slot = torso
+}
+
+snowquill_tunic = {
+	monthly_character_prestige = 3
+	combat_rating = 1.7
+	quality = 3
+	rito_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_snowquill_tunic"
+	slot = torso
+}
+
+soldiers_armor = {
+	monthly_character_prestige = 4
+	combat_rating = 2
+	quality = 3
+	hylian_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_soldiers_armor"
+	slot = torso
+}
+
+stealth_chest_guard = {
+	monthly_character_prestige = 2
+	combat_rating = 1
+	quality = 3
+	sheika_opinion = 10
+	intrigue = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_stealth_chest_guard"
+	slot = torso
+}
+
+tingles_shirt = {
+	monthly_character_prestige = 2
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_tingles_shirt"
+	slot = torso
+}
+
+tunic_of_the_hero = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	hylian_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_tunic_of_the_hero"
+	slot = torso
+}
+
+tunic_of_time = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	royal_hylian_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_tunic_of_time"
+	slot = torso
+}
+
+tunic_of_twilight = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	human_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_tunic_of_twilight"
+	slot = torso
+}
+
+tunic_of_the wild = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	general_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_tunic_of_the_wild"
+	slot = torso
+}
+
+tunic_of_the_wind = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	new_hylian_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_tunic_of_the_wind"
+	slot = torso
+}
+
+tunic_of_the sky = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	vassal_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_tunic_of_the_sky"
+	slot = torso
+}
+
+warm_doublet = {
+	monthly_character_prestige = 0.2
+	combat_rating = 0.5
+	quality = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.2
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_warm_doublet"
+	slot = torso
+}
+
+zora_armor = {
+	monthly_character_prestige = 3
+	combat_rating = 2
+	quality = 3
+	zora_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		pikemen = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_zora_armor"
+	slot = torso
+}
+
+#pants
+ancient_greaves = {
+	monthly_character_prestige = 4
+	combat_rating = 2
+	quality = 4
+	hylian_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.2
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_ancient_greaves"
+	slot = legs
+}
+
+barbarian_leg_wraps = {
+	monthly_character_prestige = 3
+	combat_rating = 4
+	quality = 3
+	martial = 3
+	tribal_vassal_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		light_infantry = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_barbarian_leg_wraps"
+	slot = legs
+}
+
+climbing_boots = {
+	monthly_character_prestige = 0.3
+	combat_rating = 1
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 0.6
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_climbing_boots"
+	slot = legs
+}
+
+dark_trousers = {
+	monthly_character_prestige = 1
+	combat_rating = 0.5
+	quality = 1
+	monster_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_dark_trousers"
+	slot = legs
+}
+
+desert_voe_trousers = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 3
+	gerudo_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_desert = 0.2
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_desert_voe_trousers"
+	slot = legs
+}
+
+fierce_deity_boots = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	terminean_opinion = 20
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 1
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_fierce_deity_boots"
+	slot = legs
+}
+
+flamebreaker_boots = {
+	monthly_character_prestige = 0.7
+	combat_rating = 1
+	quality = 3
+	goron_opinion = 10
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_flamebreaker_boots"
+	slot = legs
+}
+
+gerudo_sirwal = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.1
+	quality = 1
+	gerudo_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_gerudo_sirwal"
+	slot = legs
+}
+
+hylian_trousers = {
+	monthly_character_prestige = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_hylian_trousers"
+	slot = legs
+}
+
+phantom_ganon_greaves = {
+	monthly_character_prestige = 4
+	combat_rating = 5
+	quality = 4
+	hylian_opinion = -10
+	royal_hylian_opinion = -10
+	goron_opinion = -10
+	zora_opinion = -10
+	korok_opinion = -10
+	rito_opinion = -10
+	sheika_opinion = -10
+	yiga_opinion = 10
+	monsters_opinion = 10
+	intrigue = 2
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_phantom_ganon_greaves"
+	slot = legs
+}
+
+phantom_greaves = {
+	monthly_character_prestige = 8
+	combat_rating = 5
+	quality = 4
+	new_hylian_opinion = -20
+	martial = 2
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 1
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_phantom_greaves"
+	slot = legs
+}
+
+radiant_thights = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 2
+	monsters_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_radiant_thights"
+	slot = legs
+}
+
+royal_guard_boots = {
+	monthly_character_prestige = 4
+	combat_rating = 3
+	quality = 3
+	monsters_opinion = -20
+	hylian_opinion = 10
+	royal_hylian_opinion = 20
+	human_opinion = 10
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_royal_guard_boots"
+	slot = legs
+}
+
+rubber_thigts = {
+	monthly_character_prestige = 3
+	combat_rating = 1
+	quality = 3
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_rubber_thigts"
+	slot = legs
+}
+
+salvager_trousers = {
+	monthly_character_prestige = 5
+	combat_rating = 2
+	quality = 4
+	vassal_opinion = 5
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_salvager_trousers"
+	slot = legs
+}
+
+sand_boots = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 3
+	gerudo_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_deser = 1
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_sand_boots"
+	slot = legs
+}
+
+snow_boots = {
+	monthly_character_prestige = 2
+	combat_rating = 1
+	quality = 3
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 1
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_snow_boots"
+	slot = legs
+}
+
+snowquill_trousers = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 3
+	rito_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_mountains = 1
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_snowquill_trousers"
+	slot = legs
+}
+
+soldiers_greaves = {
+	monthly_character_prestige = 3
+	combat_rating = 1.5
+	quality = 3
+	hylian_opinion = 5
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		heavy_infantry = 0.5
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_soldiers_greaves"
+	slot = legs
+}
+
+stealth_thigts = {
+	monthly_character_prestige = 2
+	combat_rating = 1
+	quality = 3
+	sheika_opinion = 5
+	intrigue = 1
+	active = {
+		age = 14
+	}
+	command_modifier = {
+		terrain_hills = 1
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_stealth_thigts"
+	slot = legs
+}
+
+tingle_thigts = {
+	monthly_character_prestige = 0.5
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_3 }
+	stacking = no
+	picture = "GFX_tingles_thigts"
+	slot = legs
+}
+
+trousers_of_the_hero = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	hylian_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_trousers_of_the_hero"
+	slot = legs
+}
+
+trousers_of_time = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	royal_hylian_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_trousers_of_time"
+	slot = legs
+}
+
+trousers_of_twilight = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	human_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_trousers_of_twilight"
+	slot = legs
+}
+
+trousers_of_the_wild = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	general_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_trousers_of_the_wild"
+	slot = legs
+}
+
+trousers_of_the_wind = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	new_hylian_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_trousers_of_the_wind"
+	slot = legs
+}
+
+trousers_of_the_sky = {
+	monthly_character_prestige = 9
+	combat_rating = 3
+	quality = 4
+	vassal_opinion = 30
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_4 }
+	stacking = no
+	picture = "GFX_trousers_of_the_sky"
+	slot = legs
+}
+
+well_worn_trousers = {
+	monthly_character_prestige = 0.1
+	combat_rating = 0.1
+	quality = 1
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_1 }
+	stacking = no
+	picture = "GFX_well_worn_trousers"
+	slot = legs
+}
+
+zora_greaves = {
+	monthly_character_prestige = 1
+	combat_rating = 1.5
+	zora_opinion = 5
+	quality = 2
+	active = {
+		age = 14
+	}
+	flags = { armour armour_tier_2 }
+	stacking = no
+	picture = "GFX_zora_trousers"
+	slot = legs
+}
+
+#paintings
+
+magnificent_painting = {
+	monthly_character_prestige = 0.2
+	quality = 1
+	flags = { art decor }
+	stacking = no
+	picture = "GFX_magnificent_painting"
+}
+
+avant_garde_painting = {
+	diplomacy = -1
+	monthly_character_prestige = 0.4
+	quality = 1
+	flags = { art decor }
+	stacking = no
+	picture = "GFX_magnificent_painting_improved"
+}
+
+################
+#Misc artifacts#
+################
+
+rival_skull = {
+	quality = 1
+	monthly_character_prestige = 0.05
+	allowed_gift = {
+		always = no
+	}
+	flags = { trophy skull no_usurp_transfer }
+	picture = "GFX_saints_skull"
+}
+
+necronomicon = {
+	learning = 5
+	diplomacy = -1
+	quality = 4
+	monthly_character_piety = -2
+	flags = { book unholy no_usurp_transfer }
+	stacking = no
+	picture = "GFX_book_sinister"
+}
+
+cursed_diamond = {
+	monthly_character_prestige = 0.25
+	global_tax_modifier = 0.05
+	quality = 3
+	flags = { event diamond curse no_usurp_transfer }
+	stacking = no
+	picture = "GFX_gem_diamond"
+}
+
+### generic ###
+
+famous_head = {
+	monthly_character_prestige = 0.05
+	learning = 1
+	quality = 1
+	flags = { saint bodypart }
+	picture = "GFX_saints_skull"
+}
+
+famous_tongue = {
+	monthly_character_prestige = 0.05
+	diplomacy = 1
+	quality = 1
+	flags = { saint bodypart }
+	picture = "GFX_pouch"
+}
+
+infamous_tongue = {
+	monthly_character_prestige = 0.05
+	intrigue = 1
+	quality = 1
+	flags = { saint bodypart }
+	picture = "GFX_pouch"
+}
+
+famous_hand = {
+	monthly_character_prestige = 0.05
+	#martial = 1
+	quality = 1
+	flags = { saint bodypart }
+	picture = "GFX_saints_bone_finger"
+}
+
+famous_arm = {
+	monthly_character_prestige = 0.05
+	stewardship = 1
+	quality = 1
+	flags = { saint bodypart }
+	picture = "GFX_saints_bone_femur"
+}
+
+famous_foot = {
+	command_modifier = {
+		speed = 0.05
+	}
+	quality = 1
+	flags = { saint bodypart }
+	picture = "GFX_saints_bone_femur"
+}
+
+treasure_chest = {
+	flags = { chest no_usurp_transfer }
+	picture = "GFX_strange_chest"
+}

@@ -1,0 +1,1212 @@
+monsters = {
+	graphical_cultures = { monstergfx } # buildings, portraits, units
+	
+	bokoblin = {
+		graphical_cultures = { bokoblingfx } # portraits
+		
+		used_for_random = no
+		
+		color = { 0.1 0.1 0.1 }
+		
+		male_names = {
+			Bokoblin
+		}
+		female_names = {
+			Bokoblin
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+	blue_bokoblin = {
+		graphical_cultures = { bluebokoblingfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Blue-Bokoblin
+		}
+		female_names = {
+			Blue-Bokoblin
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	black_bokoblin = {
+		graphical_cultures = { blackbokoblingfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Black-Bokoblin
+		}
+		female_names = {
+			Black-Bokoblin
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	silver_bokoblin= {
+		graphical_cultures = { silverbokoblingfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Silver-Bokoblin
+		}
+		female_names = {
+			Silver-Bokoblin
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+	}
+	
+	golden_bokoblin = {
+		graphical_cultures = { goldenbokoblingfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Golden-Bokoblin
+		}
+		female_names = {
+			Golden-Bokoblin
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	stalkoblin = {
+		graphical_cultures = { stalkoblingfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Stalkoblin
+		}
+		female_names = {
+			Stalkoblin
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+	
+	moblin = {
+		graphical_cultures = { moblingfx } # portraits
+		
+		used_for_random = no
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Moblin
+		}
+		female_names = {
+			Moblin
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+	blue_moblin = {
+		graphical_cultures = { bluemoblingfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Blue-Moblin
+		}
+		female_names = {
+			Blue-Moblin
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	black_moblin = {
+		graphical_cultures = { blackmoblingfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Black-Moblin
+		}
+		female_names = {
+			Black-Moblin
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	silver_moblin= {
+		graphical_cultures = { silvermoblingfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Silver-Moblin
+		}
+		female_names = {
+			Silver-Moblin
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	golden_moblin = {
+		graphical_cultures = { goldenmoblingfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Golden-Moblin
+		}
+		female_names = {
+			Golden-Moblin
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	stalmoblin = {
+		graphical_cultures = { stalmoblingfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Stalmoblin
+		}
+		female_names = {
+			Stalmoblin
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	lizalfos = {
+		graphical_cultures = { lizalfosgfx } # portraits
+		
+		used_for_random = no
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Lizalfos
+		}
+		female_names = {
+			Lizalfos
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	blue_lizalfos = {
+		graphical_cultures = { bluelizalfosgfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Blue-Lizalfos
+		}
+		female_names = {
+			Blue-Lizalfos
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	black_lizalfos = {
+		graphical_cultures = { blacklizalfosgfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Black-Lizalfos
+		}
+		female_names = {
+			Black-Lizalfos
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	silver_lizalfos= {
+		graphical_cultures = { silverlizalfosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Silver-Lizalfos
+		}
+		female_names = {
+			Silver-Lizalfos
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	golden_lizalfos = {
+		graphical_cultures = { goldenlizalfosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Golden-Lizalfos
+		}
+		female_names = {
+			Golden-Lizalfos
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	stalizalfos = {
+		graphical_cultures = { stalizalfosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Stalizalfos
+		}
+		female_names = {
+			Stalizalfos
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	firebreath_lizalfos= {
+		graphical_cultures = { fblizalfosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Fire-Breath-Lizalfos
+		}
+		female_names = {
+			Fire-Breath-Lizalfos
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	icebreath_lizalfos = {
+		graphical_cultures = { iblizalfosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Ice-Breath-Lizalfos
+		}
+		female_names = {
+			Ice-Breath-Lizalfos
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	electric_Lizalfos= {
+		graphical_cultures = { electriclizalfosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Electric-Lizalfos
+		}
+		female_names = {
+			Electric-Lizalfos
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	chuchu = {
+		graphical_cultures = { chuchugfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Chuchu
+		}
+		female_names = {
+			Chuchu
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	fire_chuchu = {
+		graphical_cultures = { firechuchugfx } # portraits
+		
+		color = { 0 0 0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Fire-Chuchu
+		}
+		female_names = {
+			Fire-Chuchu
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+	}
+	
+	ice_chuchu= {
+		graphical_cultures = { icechuchugfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Ice-Chuchu
+		}
+		female_names = {
+			Ice-Chuchu
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	electric_Chuchu = {
+		graphical_cultures = { electricchuchugfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Electric-Chuchu
+		}
+		female_names = {
+			Electric-Chuchu
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	keese = {
+		graphical_cultures = { keesegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Keese
+		}
+		female_names = {
+			Keese
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	fire_keese= {
+		graphical_cultures = { firekeesegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Fire-Keese
+		}
+		female_names = {
+			Fire-Keese
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	ice_keese = {
+		graphical_cultures = { icekeesegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Ice-Keese
+		}
+		female_names = {
+			Ice-Keese
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	electric_keese= {
+		graphical_cultures = { electrickeesegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Electric-Keese
+		}
+		female_names = {
+			Electric-Keese
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	fire_wizzrobe = {
+		graphical_cultures = { firewizzrobegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Fire-Wizzrobe
+		}
+		female_names = {
+			Fire-Wizzrobe
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	ice_wizzrobe = {
+		graphical_cultures = { icewizzrobegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Ice-Wizzrobe
+		}
+		female_names = {
+			Ice-Wizzrobe
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	electric_wizzrobe= {
+		graphical_cultures = { electricwizzrobegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Electric-Wizzrobe
+		}
+		female_names = {
+			Electric-Wizzrobe
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	meteo_wizzrobe = {
+		graphical_cultures = { meteowizzrobegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Meteo-Wizzrobe
+		}
+		female_names = {
+			Meteo-Wizzrobe
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	blizzrobe = {
+		graphical_cultures = { blizzrobegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Blizzrobe
+		}
+		female_names = {
+			Blizzrobe
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	thunder_wizzrobe= {
+		graphical_cultures = { thunderwizzrobegfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Thunder-Wizzrobe
+		}
+		female_names = {
+			Thunder-Wizzrobe
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+	
+	lynel = {
+		graphical_cultures = { lynelgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Lynel
+		}
+		female_names = {
+			Lynel
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	blue_lynel= {
+		graphical_cultures = { bmlynelgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Blue-Maned-Lynel
+		}
+		female_names = {
+			Blue-Maned-Lynel
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	white_lynel = {
+		graphical_cultures = { wmlynelgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			White-Maned-Lynel
+		}
+		female_names = {
+			White-Maned-Lynel
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	silver_lynel = {
+		graphical_cultures = { slynelgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Silver-Lynel
+		}
+		female_names = {
+			Silver-Lynel
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	golden_lynel= {
+		graphical_cultures = { glynelgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Golden-Lynel
+		}
+		female_names = {
+			Golden-Lynel
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	stone talus = {
+		graphical_cultures = { stalusgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Stone-Talus
+		}
+		female_names = {
+			Stone-Talus
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	luminous_talos= {
+		graphical_cultures = { ltalosgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Luminous-Stone-Talus
+		}
+		female_names = {
+			Luminous-Stone-Talus
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	rare_talus = {
+		graphical_cultures = { rtalusgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Rare-Stone-Talus
+		}
+		female_names = {
+			Rare-Stone-Talus
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	igneo_talus = {
+		graphical_cultures = { italusgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Igneo-Talus
+		}
+		female_names = {
+			Igneo-Talus
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	frost_talus= {
+		graphical_cultures = { ftalusgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Frost-Talus
+		}
+		female_names = {
+			Frost-Talus
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	hinox= {
+		graphical_cultures = { hinoxgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Hinox
+		}
+		female_names = {
+			Hinox
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	blue_hinox = {
+		graphical_cultures = { bhinoxgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Blue-Hinox
+		}
+		female_names = {
+			Blue-Hinox
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	black_hinox = {
+		graphical_cultures = { blhinoxgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Black-Hinox
+		}
+		female_names = {
+			Black-Hinox
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+	
+	stalhinox= {
+		graphical_cultures = { stalhinoxgfx }
+		
+		color = { 0 0 0 }
+		
+		male_names = {
+			Stalhinox
+		}
+		female_names = {
+			Stalhinox
+		}	
+	
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+	}
+
+	dragon = {
+		graphical_cultures = { dragongfx }
+		
+		used_for_random = no
+		allow_in_ruler_designer = no
+		
+		color = { 1 1 1 }
+		
+		male_names = {
+			Dinraal
+                        Farosh
+                        Naydra		 
+		}
+		female_names = {
+			" "		  
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+	}
+}

@@ -1,0 +1,445 @@
+# Religion-specific opinion can be added to modifiers (E.G., norse_pagan_opinion = 5), but the modifier *has* to be defined in 00_modifier_definitions.txt as well. It also needs localisation. Works for groups as well
+
+# join_crusade_if_bordering_hostile = yes # The AI won't refrain from joining a crusade simply because it borders a heathen/heretic realm
+
+# This trigger defines who can see a character's secret religion. The character with the secret religion is FROM, while the viewer is ROOT
+# Characters can always see their own secret religion. The observer can see all secret religions
+secret_religion_visibility_trigger = {
+	secret_religion = FROM
+}
+
+# women_can_take_consorts = yes # If set, women can take consorts as well, not just men. Defaults to "no". Has no effect if max_consorts is 0
+# men_can_take_consorts = no # If set, men cannot take consorts any more. Defaults to "yes". Has no effect if max_consorts is 0
+# male_temple_holders = no # If set to no, men cannot hold temples. Defaults to "yes". You might need to update your law scripts for this to fully work (see trigger "religion_allows_male_temple_holders")
+
+hyrulean_triforce = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 1 # always try to convert
+	ai_convert_other_group = 1 # always try to convert
+	
+	color = { 0.7 0.8 0.6 }
+	
+	# Names given only to Hyrulean Triforce characters (base names)
+	male_names = {
+		Link
+	}
+	female_names = {
+		Din Farore Naryu Zelda
+	}
+	
+	faith_of_the_golden_goddesses = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 0.6 0.7 0.6 }
+		
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = GOD_THE_GOLDEN_GODDESSES
+		
+		god_names = {
+			GOD_THE_GOLDEN_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE GOD_THE_SPIRITS_OF_LIGHT GOD_ELDIN GOD_FARON GOD_LANARYU GOD_ORDONA GOD_HYLIA GOD_MANALYA
+		}
+		
+		evil_god_names = {
+			DEMONS CALAMITY_GANON THE_DEMON_KING THE_GRANTER_OF_BOONS VAATI
+		}
+		
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		priests_can_inherit = no
+		feminist = yes
+		rel_head_defense = no
+		female_temple_holders = yes
+		peace_piety_gain = 1.0
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		intermarry = faith_of_the_tracks
+		intermarry = lorulean_triforce
+		intermarry = the_four_giants
+		
+	}
+	faith_of_the_tracks = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.5 0.6 0.8 }
+
+		scripture_name = THE_TALES_OF_THE_GREAT_SEA
+		priest_title = PRIEST
+		
+		high_god_name = GOD_THE_SPIRITS_OF_GOOD
+		
+		god_names = {
+			GOD_THE_THREE_SPIRITS GOD_CIELA GOD_LEAF GOD_NERI GOD_THE_SPIRITS_OF_GOOD GOD_HYLIA GOD_THE_GODS_OF_WIND GOD_ZEPHOS GOD_CYCLOS GOD_THE_OCEAN_KING GOD_THE_SPIRIT_TRAIN GOD_THE_TRIFORCE
+		}
+		
+		evil_god_names = {
+			DEMONS MALLADUS THE_DEMON_TRAIN BELLUM SKELDRITCH COLE
+		}
+
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = no
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_marry = no
+		priests_can_inherit = no
+		feminist = yes
+		rel_head_defense = no
+		female_temple_holders = yes
+		peace_piety_gain = 1.0
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = faith_of_the_golden_goddesses
+	}
+	
+}
+
+lorulean = {
+	has_coa_on_barony_only = no
+	graphical_culture = westerngfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+	
+	color = { 0 0.5 0.1 }
+	
+	# Names given only to Lorulean characters (base names)
+	male_names = {
+		Ravio
+	}
+	
+	# Names given only to Lorulean characters (base names)
+	female_names = {
+		Hilda 
+	}
+	
+	lorulean_triforce = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		
+		color = { 0 0.7 0.1 }
+		
+		scripture_name = THE_ANCIENT_TEXTS
+		priest_title = PRIEST
+		
+		high_god_name = GOD_THE_TRIFORCE
+		
+		god_names = {
+			GOD_THE_TRIFORCE GOD_THE_ANCIENT_RELIC
+		}
+		
+		evil_god_names = {
+			GANON YUGA_THE_TRAITOR DEMONS
+		}
+
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		feminist = yes
+		rel_head_defense = no
+		female_temple_holders = yes
+		landed_kin_prestige_bonus = yes
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = faith_of_the_golden_goddesses
+		intermarry = the_four_giants
+
+	}
+	the_dark_faith = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		
+		color = { 0.2 0.5 0.3 }
+
+		high_god_name = GOD_THE_GREAT_YUGA
+
+		god_names = {
+			GOD_GANON GOD_DEMONS GOD_THE_GREAT_YUGA
+		}
+		
+		evil_god_names = {
+			THE_LORULEAN_BLOODLINE PRINCESS_HILDA_THE_CRUEL RAVIO_THE_CRAVEN THE_HYLIAN_INTRUDERS
+		}
+
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = no
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		feminist = yes
+		rel_head_defense = no
+		female_temple_holders = yes
+		landed_kin_prestige_bonus = yes
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		intermarry = cult_of_ganon
+		intermarry = the_demons_faith
+		intermarry = lorulean_triforce
+		intermarry = faith_of_the_golden_goddesses
+
+	}
+}
+
+terminean = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 
+	ai_convert_other_group = 1 
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.4 0.3 }
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Tortus
+	}
+	female_names = {
+		Romani
+	}
+
+	the_four_giants = { 
+		graphical_culture = westerngfx
+
+		icon = 5
+		
+		color = { 0.6 0.0 0.0 }
+		
+		high_god_name = GOD_THE_FOUR_GIANTS
+		
+		god_names = {
+			GOD_THE_FOUR_GIANTS GOD_THE_FIERCE_DEITY GOD_THE_GODDESS_OF_TIME
+		}
+		evil_god_names = {
+			MAJORA THE_MOON THE_DEVIL
+		}
+
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = no
+		priests_can_marry = no
+		priests_can_inherit = no
+		rel_head_defense = no
+		female_temple_holders = no
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = faith_of_the_golden_goddesses
+		intermarry = lorulean_triforce
+
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 0
+	}
+	
+	majoras_cult = {
+		graphical_culture = westerngfx
+
+		icon = 20
+		heresy_icon = 21
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.6 0.7 0.2 }
+		
+		high_god_name = GOD_MAJORA
+		
+		god_names = {
+			GOD_MAJORA GOD_THE_MOON
+		}
+		evil_god_names = {
+			THE_FIERCE_DEITY THE_FOUR_GIANTS
+		} 
+
+		scripture_name = THE_TALES_OF_MAJORA
+		priest_title = PRIEST
+		priests_can_marry = yes
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = no
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		rel_head_defense = no
+		female_temple_holders = yes
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		join_crusade_if_bordering_hostile = yes
+		
+		allow_looting = yes
+		
+		short_reign_opinion_year_mult = 1.25
+		
+		aggression = 2.5 # AI aggression factor
+		
+		max_consorts = 3
+
+		religious_clothing_head = 1
+		religious_clothing_priest = 3
+		
+		intermarry = faith_of_the_golden_goddesses
+		intermarry = lorulean_triforce
+		intermarry = the_four_giants
+		
+		allow_in_ruler_designer = no
+	}		
+	
+}
+
+hylian_demon_worshippers_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = pagangfx
+	playable = yes
+	
+	ai_convert_same_group = 0 # always try to convert
+	ai_convert_other_group = 2	# always try to convert
+	
+	color = { 0.5 0.5 0.3 }
+	# Names given only to Zoroastrian characters (base names)
+	male_names = {
+		Khoga
+	}
+
+	the_demons_faith = { # Mongols
+		graphical_culture = norsegfx
+		
+		secondary_event_pictures = tengri_pagan
+
+		icon = 29
+		heresy_icon = 30
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.1 0.3 0.8 }
+		
+		high_god_name = GOD_GANON
+		
+		god_names = {
+			GOD_DEMISE GOD_THE_FIRST_DEMON_KING GOD_GHIRAHIM GOD_SWORD_OF_THE_DEMON_KING GOD_VAATI GOD_THE_SECOND_DEMON_KING GOD_GANON GOD_THE_GREAT_DEMON_KING GOD_BELLUM GOD_THE_OCEANIC_DEMON_KING GOD_MALLADUS GOD_THE_EASTERN_DEMON_KING GOD_DEMONS
+		}
+		evil_god_names = {
+			HYLIA THE_GODDESS THE_GOLDEN_GODDESSES THE_SPIRITS_OF_GOOD THE_OCEAN_KING BATRAUX THE_DEMON_TRAITOR
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			light_infantry_offensive = 0.3
+		}
+		
+		crusade_name = GREAT_DEMON_WAR
+		scripture_name = THE_WORD_OF_GANON
+		priest_title = SHAMAN
+		priests_can_marry = yes
+		allow_looting = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		aggression = 2.0
+		
+		short_reign_opinion_year_mult = 1.5
+
+		religious_clothing_head = 13
+		religious_clothing_priest = 4
+	}		
+
+	ganons_cult = {
+		graphical_culture = persiangfx
+		
+		icon = 10
+		heresy_icon = 12
+		
+		color = { 0.5 0.7 0.2 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TALES_OF_GANON
+		priest_title = GREAT_CHIEF
+		
+		high_god_name = GOD_GANON
+		
+		god_names = {
+			GOD_GANON
+		}
+		evil_god_names = {
+			HYLIA THE_ROYAL_BLOODLINE BLOOD_OF_THE_GODDESS
+		}
+		priests_can_marry = yes
+		allow_looting = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		aggression = 2.0
+		
+		short_reign_opinion_year_mult = 1.5
+
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+	}
+}

@@ -1,0 +1,61 @@
+human = {
+	graphical_cultures = { westerngfx } # buildings, portraits, units
+	
+	human = {
+		graphical_cultures = { germangfx } # portraits
+		
+		color = { 0.95 0.95 0.95 }
+		
+		male_names = {
+			Adlar
+			Barnes Barth Bipin Bipsom Bo Buri
+			Cannon Cheval Colin Combsly Coro
+			Dekadin
+			Eagle Eddo
+			Fado Fuzo
+			Gazpacho
+			Hanch
+			Jacob Jaggle
+			Malo Mark Marlon
+			Ondrew Osric Owen
+			Papahl Patch Pippin Plen
+			Rafton Ralph Richard Romanos Rusl Ruul
+			Stockwell
+			Talo Tarin Thomas Tick-Tock Tokkey Troy Tuft
+			Ulrira
+			Vasu
+			Write Walton Wayn Wendel Willam Wyl Wylis Wyman Wynton
+			Yoren
+		}
+		female_names = {
+			Ashei Ambi
+			Beth Blossom
+			Couture
+			Freedle
+			Hena Holly
+			Ilia Inga Iris Iza 
+			Luda
+			Maple Marie Marin MeowMeow Missy
+			Pamela Pergie
+			Roperi
+			Sera Seres Styla Syrup
+			Tracy
+			Uli Ulrira
+			Wynafryd
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 5
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 5
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}	
+}
