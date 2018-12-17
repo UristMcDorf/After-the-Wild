@@ -1,4 +1,5 @@
 #Gerudo
+#In Gerudo Town
 243030000 = {
 	name="Riju" # Current Gerudo chief
 	dynasty=19252100 # Makeela
@@ -9,6 +10,18 @@
 		birth=yes
 	}
 	270.11.4 = {
+		death=yes
+	}
+}
+243030027 = {
+	name="Urbosa" # Ancient Gerudo champion
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	60.12.5 = {
+		birth=yes
+	}
+	101.1.1 = {
 		death=yes
 	}
 }
@@ -191,30 +204,6 @@
 		death=yes
 	}
 }
-243030014 = {
-	name="Kachoo" # Kara Kara bazaar
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	173.12.3 = {
-		birth=yes
-	}
-	278.10.2 = {
-		death=yes
-	}
-}
-243030015 = {
-	name="Karsh" # Voy hunting
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	180.5.13 = {
-		birth=yes
-	}
-	281.1.22 = {
-		death=yes
-	}
-}
 243030016 = {
 	name="Konora" # Noble Canteen client
 	religion="faith_of_the_golden_goddesses"
@@ -249,19 +238,6 @@
 		birth=yes
 	}
 	240.10.9 = {
-		death=yes
-	}
-}
-243030019 = {
-	name="Laroba" # voy hunting
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	trait=craven
-	179.11.7 = {
-		birth=yes
-	}
-	250.3.19 = {
 		death=yes
 	}
 }
@@ -339,7 +315,7 @@
 	culture="gerudo"
   	female=yes
 	learning=5
-	mother=243030027
+	mother=243030028
 	191.2.11 = {
 		birth=yes
 	}
@@ -354,47 +330,11 @@
   	female=yes
 	learning=9
 	trait=scholar
-	mother=243030027
+	mother=243030028
 	179.12.16 = {
 		birth=yes
 	}
 	289.11.6 = {
-		death=yes
-	}
-}
-243030027 = {
-	name="Kakure" # Pearle and Rotana non canon mother
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	159.10.6 = {
-		birth=yes
-	}
-	200.11.13 = {
-		death=yes
-	}
-}
-243030028 = {
-	name="Kakure" # Pearle and Rotana non canon mother
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	159.10.6 = {
-		birth=yes
-	}
-	200.11.13 = {
-		death=yes
-	}
-}
-243030029 = {
-	name="Kakure" # Pearle and Rotana non canon mother
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	159.10.6 = {
-		birth=yes
-	}
-	200.11.13 = {
 		death=yes
 	}
 }
@@ -408,31 +348,6 @@
 		birth=yes
 	}
 	286.5.13 = {
-		death=yes
-	}
-}
-243030031 = {
-	name="Maike" # kara kara bazaar shop owner
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	mother=243030032
-	169.7.8 = {
-		birth=yes
-	}
-	289.10.3 = {
-		death=yes
-	}
-}
-243030032 = {
-	name="Marua" # Maike and Estan non canon mother
-	religion="faith_of_the_golden_goddesses"
-	culture="gerudo"
-  	female=yes
-	131.6.28 = {
-		birth=yes
-	}
-	193.3.13 = {
 		death=yes
 	}
 }
@@ -488,6 +403,156 @@
 	}
 }
 243030037 = {
+	name="Reeza" # villager in Gerudo Town
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	180.9.20 = {
+		birth=yes
+	}
+	291.12.31 = {
+		death=yes
+	}
+}
+243030039 = {
+	name="Rima" # ex-guard commander
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	125.1.16 = {
+		birth=yes
+	}
+	210.5.19 = {
+		death=yes
+	}
+}
+243030040 = {
+	name="Romah" # innkeeper
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+  	diplomacy=9
+	168.11.5 = {
+		birth=yes
+	}
+	240.9.15 = {
+		death=yes
+	}
+}
+243030041 = {
+	name="Shabonne" # seal surfing expert
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	140.1.15 = {
+		birth=yes
+	}
+	244.12.10 = {
+		death=yes
+	}
+}
+243030042 = {
+	name="Sumati" # client of the Noble Canteen
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	170.12.5 = {
+		birth=yes
+	}
+	259.2.2 = {
+		death=yes
+	}
+}
+243030043 = {
+	name="Tali" # seal surfing record holder
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	172.10.15 = {
+		birth=yes
+	}
+	269.6.14 = {
+		death=yes
+	}
+}
+243030044 = {
+	name="Teake" # Gerudo guards commander
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	164.11.7 = {
+		birth=yes
+	}
+	272.7.9 = {
+		death=yes
+	}
+}
+243030045 = {
+	name="Yaido" # client in the Noble Canteen
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	171.6.14 = {
+		birth=yes
+	}
+	268.9.4 = {
+		death=yes
+	}
+}
+# in Kara Kara Bazaar
+243030014 = {
+	name="Kachoo" # Kara Kara bazaar
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	173.12.3 = {
+		birth=yes
+	}
+	278.10.2 = {
+		death=yes
+	}
+}
+243030031 = {
+	name="Maike" # kara kara bazaar shop owner
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	mother=243030032
+	169.7.8 = {
+		birth=yes
+	}
+	289.10.3 = {
+		death=yes
+	}
+}
+# Voy Hunting
+243030015 = {
+	name="Karsh" # Voy hunting
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	180.5.13 = {
+		birth=yes
+	}
+	281.1.22 = {
+		death=yes
+	}
+}
+243030019 = {
+	name="Laroba" # voy hunting
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	trait=craven
+	179.11.7 = {
+		birth=yes
+	}
+	250.3.19 = {
+		death=yes
+	}
+}
+#Goron City
+243030029 = {
 	name="Ramella" # In Goron City
 	religion="faith_of_the_golden_goddesses"
 	culture="gerudo"
@@ -499,15 +564,41 @@
 		death=yes
 	}
 }
-243030037 = {
-	name="Reeza" # In Goron City
+#Tarrey Town
+243030038 = {
+	name="Rhodson" # Tarrey Town
 	religion="faith_of_the_golden_goddesses"
 	culture="gerudo"
   	female=yes
-	180.9.20 = {
+	165.10.10 = {
 		birth=yes
 	}
-	291.12.31 = {
+	260.11.1 = {
+		death=yes
+	}
+}
+#Non canon
+243030028 = {
+	name="Kakure" # Pearle and Rotana non canon mother
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	159.10.6 = {
+		birth=yes
+	}
+	200.11.13 = {
+		death=yes
+	}
+}
+243030032 = {
+	name="Marua" # Maike and Estan non canon mother
+	religion="faith_of_the_golden_goddesses"
+	culture="gerudo"
+  	female=yes
+	131.6.28 = {
+		birth=yes
+	}
+	193.3.13 = {
 		death=yes
 	}
 }
