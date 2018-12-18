@@ -1,0 +1,55 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+# Geographical Regions
+world_hyrule_plains;Hyrule Plains;;;;;;;;;x
+
+# Empires
+e_great_hyrule;Great Hyrule;;;;;;;;;x
+
+# Empire Adjectives
+e_great_hyrule_adj;Hyrulean;;;;;;;;;x
+
+# Kingdoms
+k_central_hyrule;Hyrule;;;;;;;;;x
+
+# Kingdom Adjectives
+k_central_hyrule_adj;Hyrulean;;;;;;;;;x
+
+# Duchies
+d_hyrule_castle;Hyrule Castle;;;;;;;;;x
+
+# Duchy Adjectives
+d_hyrule_castle_adj;Hyrulean;;;;;;;;;x
+
+# Counties
+PROV1;North Seas;;;;;;;;;x
+PROV2;South Seas;;;;;;;;;x
+PROV3;Lava Rivers;;;;;;;;;x
+PROV4;Zora Rivers;;;;;;;;;x
+PROV5;Hyrule Rivers;;;;;;;;;x
+PROV6;Rito Rivers;;;;;;;;;x
+PROV7;Hyrule Castle;;;;;;;;;x
+PROV8; ;;;;;;;;;x
+PROV9; ;;;;;;;;;x
+PROV10; ;;;;;;;;;x
+PROV11; ;;;;;;;;;x
+PROV12; ;;;;;;;;;x
+PROV13; ;;;;;;;;;x
+PROV14; ;;;;;;;;;x
+PROV15; ;;;;;;;;;x
+PROV16; ;;;;;;;;;x
+PROV17; ;;;;;;;;;x
+PROV18; ;;;;;;;;;x
+PROV19; ;;;;;;;;;x
+PROV20; ;;;;;;;;;x
+PROV21; ;;;;;;;;;x
+PROV22; ;;;;;;;;;x
+PROV23; ;;;;;;;;;x
+PROV24; ;;;;;;;;;x
+PROV25; ;;;;;;;;;x
+
+# County Adjectives
+c_hyrule_adj;Hyrulean;;;;;;;;;x
+
+# Baronies
+b_hyrule_castle;Hyrule Castle;;;;;;;;;x
