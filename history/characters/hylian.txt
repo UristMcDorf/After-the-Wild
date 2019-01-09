@@ -289,6 +289,7 @@
 	name="Ariane" #Woman at the Rito Stable
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
+	female=yes
 	170.1.5 = {
 		birth=yes
 	}
@@ -297,13 +298,61 @@
 	}
 }
 204040021 = {
-	name="Ariane" #Woman at the Rito Stable
+	name="Armes" #Man in Lurelin Village
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
-	170.1.5 = {
+	159.10.25 = {
 		birth=yes
 	}
-	251.11.14 = {
+	240.7.16 = {
+		death=yes
+	}
+}
+204040022 = {
+	name="Ashe" #Old man in Woodland Stable, grandfather of Shamae
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	140.11.14 = {
+		birth=yes
+	}
+	211.3.27 = {
+		death=yes
+	}
+}
+204040023 = {
+	name="Shem" #Non canon son of Ashe and father of Shamae
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040022
+	160.15.4 = {
+		birth=yes
+	}
+	200.1.7 = {
+		death=yes
+	}
+}
+204040024 = {
+	name="Shamae" #Granddaughter of Ashe
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040023
+	female=yes
+	190.11.3 = {
+		birth=yes
+	}
+	290.11.3 = {
+		death=yes
+	}
+}
+204040025 = {
+	name="Shamae" #Granddaughter of Ashe
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040023
+	190.11.3 = {
+		birth=yes
+	}
+	290.11.3 = {
 		death=yes
 	}
 }
