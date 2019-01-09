@@ -1,5 +1,5 @@
 204040000 = {
-	name="Zelda"
+	name="Zelda" # Princess (now Queen) of Hyrule
 	dynasty=2
 	female = yes
 	religion="faith_of_the_golden_goddesses"
@@ -23,15 +23,18 @@
 	trait = "erudite"
 	trait = "honest"
 	trait = "stubborn"
-	1084.1.6 = {
-		birth="184.1.1"
+	184.1.1 = {
+		birth=yes
 	}
-	1200.2.1 = {
-		death="299.2.3"
+	201.1.6 = {
+		add_spouse = 204040001
+	}
+	299.2.1 = {
+		death=yes
 	}
 }
 204040001 = {
-	name="Link"
+	name="Link" # Protagonist
 	dynasty=3
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
@@ -55,39 +58,252 @@
 	trait = "just"
 	trait = "holy_warrior"
 	trait = "inspiring_leader"
-	1084.2.3 = {
-		birth="1084.2.3"
+	184.2.3 = {
+		birth=yes
 	}
-	1100.1.6 = {
-		add_spouse = 144237
+	201.1.6 = {
+		add_spouse = 204040000
 	}
-	1190.1.1 = {
-		death="1190.1.1"
+	290.1.1 = {
+		death=yes
 	}
 }
 204040003 = {
-	name="Daphnes Bospheramus"
+	name="Daphnes Bospheramus" #The deceased king
 	dynasty=2
 	religion="faith_of_the_golden_goddesses"
 	culture="royal_hylians"
-	1084.1.6 = {
-		birth="1084.1.6"
+	170.1.6 = {
+		birth=yes
 	}
-	1200.2.1 = {
-		death="1200.2.1"
+	201.1.1 = {
+		death=yes
 	}
 }
-204040003 = {
-	name="Hoz"
-	dynasty=3
+204040004 = {
+	name="Hoz" #Aspiring warrior
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
-	1074.1.3 = {
-		birth="1074.1.3"
+	174.1.3 = {
+		birth=yes
 	}
-	1143.5.7 = {
-		death="1143.5.7"
+	156.5.7 = {
+		death=yes
 	}
 }
-
-
+204040005 = {
+	name="Agus" #farmer that sells vegetables to bring back meat to Hatheno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=charitable
+	trait=kind
+	trait=brave
+	163.11.5 = {
+		birth=yes
+	}
+	243.6.17 = {
+		death=yes
+	}
+}
+204040006 = {
+	name="Akrah" #One of the three scientists brothers at the Serenne Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	father=204040009
+	159.4.27 = {
+		birth=yes
+	}
+	253.9.8 = {
+		death=yes
+	}
+}
+204040007 = {
+	name="Onya" #One of the three scientists brothers at the Serenne Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	father=204040009
+	161.2.13 = {
+		birth=yes
+	}
+	270.3.19 = {
+		death=yes
+	}
+}
+204040008 = {
+	name="Garshon" #One of the three scientists brothers at the Serenne Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	father=204040009
+	163.1.17 = {
+		birth=yes
+	}
+	271.3.28 = {
+		death=yes
+	}
+}
+204040009 = {
+	name="Akhon" #Noncanon father of Akrah, Onya and Garshon
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	133.7.18 = {
+		birth=yes
+	}
+	196.5.22 = {
+		death=yes
+	}
+}
+204040010 = {
+	name="Aliza" #Woman at the Outskirt Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	182.3.28 = {
+		birth=yes
+	}
+	260.6.5 = {
+		death=yes
+	}
+}
+204040011 = {
+	name="Izra" #Yolero and Ami's brother at the Wetland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040014
+	175.10.14 = {
+		birth=yes
+	}
+	250.7.24 = {
+		death=yes
+	}
+}
+204040012 = {
+	name="Yolero" #Izra and Ami's brother at the Wetland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040014
+	trait=brave
+	trait=ambitious
+	176.12.1 = {
+		birth=yes
+	}
+	231.5.14 = {
+		death=yes
+	}
+}
+204040013 = {
+	name="Ami" #Izra and Ami's brother at the Wetland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040014
+	191.4.11 = {
+		birth=yes
+	}
+	260.4.17 = {
+		death=yes
+	}
+}
+204040014 = {
+	name="Yoza" #Non canon father of Izra, Yolero and Ami
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	151.2.12 = {
+		birth=yes
+	}
+	192.5.5 = {
+		death=yes
+	}
+}
+204040015 = {
+	name="Amira" #In Hatheno Village, wife of Pruce and mother of Ivee and Azu
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	160.12.10 = {
+		birth=yes
+	}
+	180.11.30 = {
+		spouse=204040016
+	}
+	232.5.1 = {
+		death=yes
+	}
+}
+204040016 = {
+	name="Pruce" #Shopkeeper in Hatheno Village, husband of Amira and father of Ivee and Azu
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	stewardship=8
+	158.10.13 = {
+		birth=yes
+	}
+	180.11.30 = {
+		spouse=204040015
+	}
+	240.6.17 = {
+		death=yes
+	}
+}
+204040017 = {
+	name="Ivee" #Greeter in Hatheno Village, daughter of Amira and Pruce and sister of Azu
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040016
+	mother=204040015
+	female=yes
+	181.9.10 = {
+		birth=yes
+	}
+	253.8.20 = {
+		death=yes
+	}
+}
+204040018 = {
+	name="Azu" #Greeter in Hatheno Village, son of Amira and Pruce and brother of Ivee
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040016
+	mother=204040015
+	189.9.19 = {
+		birth=yes
+	}
+	248.2.28 = {
+		death=yes
+	}
+}
+204040019 = {
+	name="Anly" #Owner of the Lakeside Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	159.10.25 = {
+		birth=yes
+	}
+	231.1.31 = {
+		death=yes
+	}
+}
+204040020 = {
+	name="Ariane" #Woman at the Rito Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	170.1.5 = {
+		birth=yes
+	}
+	251.11.14 = {
+		death=yes
+	}
+}
+204040021 = {
+	name="Ariane" #Woman at the Rito Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	170.1.5 = {
+		birth=yes
+	}
+	251.11.14 = {
+		death=yes
+	}
+}
