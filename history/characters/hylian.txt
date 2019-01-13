@@ -427,13 +427,324 @@
 	}
 }
 204040032 = {
-	name="Beedle" #Travelling Merchant
+	name="Benny" #Traveler and treasure hunter
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
-	187.4.22 = {
+	female=yes
+	175.3.13 = {
 		birth=yes
 	}
-	291.1.30 = {
+	211.4.19 = {
+		death=yes
+	}
+}
+204040033 = {
+	name="Blynne" #Challenges you to an hobstacle riding course in Highland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	160.12.20 = {
+		birth=yes
+	}
+	241.10.1 = {
+		death=yes
+	}
+}
+204040034 = {
+	name="Bolson" #Master builder in Hatheno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	stewardship=8
+	trait=architect
+	145.3.2 = {
+		birth=yes
+	}
+	245.7.16 = {
+		death=yes
+	}
+}
+204040035 = {
+	name="Botrick" #Arrow seller, expert of the world, Satoru Iwata
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	159.12.12 = {
+		birth=yes
+	}
+	315.7.16 = {
+		death=yes
+	}
+}
+204040036 = {
+	name="Bozai" #In Gerudo Desert, gives Snow Boots
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	169.9.21 = {
+		birth=yes
+	}
+	240.1.27 = {
+		death=yes
+	}
+}
+204040037 = {
+	name="Branli" #Traveler, studies Rito
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	139.10.2 = {
+		birth=yes
+	}
+	210.6.5 = {
+		death=yes
+	}
+}
+204040038 = {
+	name="Breen" #At Woodland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	178.2.28 = {
+		birth=yes
+	}
+	261.5.17 = {
+		death=yes
+	}
+}
+204040039 = {
+	name="Brigo" #Patrol on Proxim Bridge
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=kind
+	180.1.7 = {
+		birth=yes
+	}
+	290.12.4 = {
+		death=yes
+	}
+}
+204040040 = {
+	name="Brokka" #Traveler in West Necluda
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	178.11.3 = {
+		birth=yes
+	}
+	291.2.14 = {
+		death=yes
+	}
+}
+204040041 = {
+	name="Bugut" #Traveling merchant
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	148.2.10 = {
+		birth=yes
+	}
+	266.1.26 = {
+		death=yes
+	}
+}
+204040042 = {
+	name="Calip" #Professor near Fort Hateno
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	122.12.1 = {
+		birth=yes
+	}
+	230.6.10 = {
+		death=yes
+	}
+}
+204040043 = {
+	name="Canni" #In Outskirt Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	179.5.21 = {
+		birth=yes
+	}
+	240.8.22 = {
+		death=yes
+	}
+}
+204040044 = {
+	name="Canolo" #Part of a Traveling group in Gerudo Canyon Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	176.4.3 = {
+		birth=yes
+	}
+	260.5.9 = {
+		death=yes
+	}
+}
+204040045 = {
+	name="Celessa" #Traveler in the Hateno region
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	178.10.4 = {
+		birth=yes
+	}
+	220.4.13 = {
+		death=yes
+	}
+}
+204040046 = {
+	name="Chabi" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	170.12.14 = {
+		birth=yes
+	}
+	240.1.9 = {
+		death=yes
+	}
+}
+204040047 = {
+	name="Chessica" #Runs a inn in Lurelin Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	155.10.10 = {
+		birth=yes
+	}
+	230.4.18 = {
+		death=yes
+	}
+}
+204040048 = {
+	name="Chorak" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	168.12.1 = {
+		birth=yes
+	}
+	260.5.4 = {
+		death=yes
+	}
+}
+204040049 = {
+	name="Chork" #At Tabantha Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	169.12.1 = {
+		birth=yes
+	}
+	261.5.4 = {
+		death=yes
+	}
+}
+204040050 = {
+	name="Chumin" #Traveler from Lurelin Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	179.2.24 = {
+		birth=yes
+	}
+	257.3.20 = {
+		death=yes
+	}
+}
+204040051 = {
+	name="Cima" #At Lakeside Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=craven
+	female=yes
+	180.3.20 = {
+		birth=yes
+	}
+	269.7.4 = {
+		death=yes
+	}
+}
+204040052 = {
+	name="Clavia" #Wife of the chief of Hateno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	169.2.24 = {
+		birth=yes
+	}
+	188.1.16 = {
+		add_spouse=204040053
+	}
+	257.3.20 = {
+		death=yes
+	}
+}
+204040053 = {
+	name="Reede" #Chief of Hateno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	168.1.1 = {
+		birth=yes
+	}
+	188.1.16 = {
+		add_spouse=204040052
+	}
+	260.1.23 = {
+		death=yes
+	}
+}
+204040054 = {
+	name="Karin" #Son of Reede and Clavia
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040053
+	mother=204040052
+	female=yes
+	190.11.10 = {
+		birth=yes
+	}
+	250.10.11 = {
+		death=yes
+	}
+}
+204040055 = {
+	name="Cloyne" #Shop owner in Lurelin Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	stewardship=12
+	140.6.2 = {
+		birth=yes
+	}
+	220.1.19 = {
+		death=yes
+	}
+}
+204040056 = {
+	name="Dabi" #In Tabatha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	150.5.16 = {
+		birth=yes
+	}
+	235.8.29 = {
+		death=yes
+	}
+}
+204040057 = {
+	name="Dabi" #In Tabatha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	159.12.4 = {
+		birth=yes
+	}
+	220.3.11 = {
+		death=yes
+	}
+}
+204040058 = {
+	name="Dabi" #In Tabatha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	159.12.4 = {
+		birth=yes
+	}
+	220.3.11 = {
 		death=yes
 	}
 }
