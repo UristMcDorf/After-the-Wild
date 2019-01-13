@@ -345,14 +345,95 @@
 	}
 }
 204040025 = {
-	name="Shamae" #Granddaughter of Ashe
+	name="Medda" #Farmer that knows the Shrine of Wisdom
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
-	father=204040023
-	190.11.3 = {
+	150.10.13 = {
 		birth=yes
 	}
-	290.11.3 = {
+	210.12.1 = {
+		death=yes
+	}
+}
+204040026 = {
+	name="Aster" #Medda's daughter
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040025
+	female=yes
+	192.1.30 = {
+		birth=yes
+	}
+	270.10.11 = {
+		death=yes
+	}
+}
+204040027 = {
+	name="Aya" #At East Akkala Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	170.1.3 = {
+		birth=yes
+	}
+	250.2.13 = {
+		death=yes
+	}
+}
+204040028 = {
+	name="Baddek" #Traveling Horse expert
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	160.11.13 = {
+		birth=yes
+	}
+	221.9.24 = {
+		death=yes
+	}
+}
+204040029 = {
+	name="Banji" #At Tabantha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	164.10.10 = {
+		birth=yes
+	}
+	210.3.9 = {
+		death=yes
+	}
+}
+204040030 = {
+	name="Baumer" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	169.7.21 = {
+		birth=yes
+	}
+	230.5.19 = {
+		death=yes
+	}
+}
+204040031 = {
+	name="Beedle" #Travelling Merchant
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	stewardship=12
+	187.4.22 = {
+		birth=yes
+	}
+	291.1.30 = {
+		death=yes
+	}
+}
+204040032 = {
+	name="Beedle" #Travelling Merchant
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	187.4.22 = {
+		birth=yes
+	}
+	291.1.30 = {
 		death=yes
 	}
 }
