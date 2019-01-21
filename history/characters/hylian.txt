@@ -69,7 +69,7 @@
 	}
 }
 204040003 = {
-	name="Daphnes Bospheramus" #The deceased king
+	name="Roham Bospheramus" #The deceased king
 	dynasty=2
 	religion="faith_of_the_golden_goddesses"
 	culture="royal_hylians"
@@ -738,13 +738,1093 @@
 	}
 }
 204040058 = {
-	name="Dabi" #In Tabatha Bridge Stable
+	name="Dai" #Traveler in Central Hyrule
 	religion="faith_of_the_golden_goddesses"
 	culture="hylians"
-	159.12.4 = {
+	169.9.9 = {
 		birth=yes
 	}
-	220.3.11 = {
+	250.11.1 = {
+		death=yes
+	}
+}
+204040059 = {
+	name="Danton" #Snowfield Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	183.12.13 = {
+		birth=yes
+	}
+	244.9.28 = {
+		death=yes
+	}
+}
+204040060 = {
+	name="Dantz" #Farmer in Hateno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=hunter
+	151.1.31 = {
+		birth=yes
+	}
+	208.2.24 = {
+		death=yes
+	}
+}
+204040061 = {
+	name="Rensa" #Owner of Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040062
+	148.7.13 = {
+		birth=yes
+	}
+	251.10.14 = {
+		death=yes
+	}
+}
+204040062 = {
+	name="Resson" #Non canon father of Rensa and Tasseren
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	120.6.17 = {
+		birth=yes
+	}
+	170.3.4 = {
+		death=yes
+	}
+}
+204040063 = {
+	name="Tasseren" #Brother of Rensa in Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040062
+	150.1.14 = {
+		birth=yes
+	}
+	240.10.10 = {
+		death=yes
+	}
+}
+204040064 = {
+	name="Darton" #Rensa's son in Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040061
+	189.11.5 = {
+		birth=yes
+	}
+	260.4.13 = {
+		death=yes
+	}
+}
+204040065 = {
+	name="Shibo" #Rensa's son in Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040061
+	189.11.5 = {
+		birth=yes
+	}
+	258.12.10 = {
+		death=yes
+	}
+}
+204040066 = {
+	name="Dayto" #At Foothill Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	167.4.23 = {
+		birth=yes
+	}
+	268.10.2 = {
+		death=yes
+	}
+}
+204040067 = {
+	name="Dmitri" #Owner of South Akkala Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	150.12.6 = {
+		birth=yes
+	}
+	231.9.2 = {
+		death=yes
+	}
+}
+204040068 = {
+	name="Kaifa" #At South Akkala Stable, daughter of Dmitri
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040067
+	173.4.15 = {
+		birth=yes
+	}
+	270.3.18 = {
+		death=yes
+	}
+}
+204040069 = {
+	name="Tenne" #At South Akkala Stable, daughter of Dmitri
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040067
+	178.2.18 = {
+		birth=yes
+	}
+	269.3.14 = {
+		death=yes
+	}
+}
+204040070 = {
+	name="Jana" #At South Akkala Stable, daughter of Dmitri
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040067
+	183.3.21 = {
+		birth=yes
+	}
+	280.5.15 = {
+		death=yes
+	}
+}
+204040071 = {
+	name="Gleema" #At South Akkala Stable, daughter of Dmitri
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040067
+	190.12.1 = {
+		birth=yes
+	}
+	288.6.27 = {
+		death=yes
+	}
+}
+204040072 = {
+	name="Dossen" #Non canon father of Domidak and Prissen
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	134.9.18 = {
+		birth=yes
+	}
+	195.5.16 = {
+		death=yes
+	}
+}
+204040073 = {
+	name="Domidak" #Treasure Hunter, Prissen's twin brother at Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040072
+	170.1.9 = {
+		birth=yes
+	}
+	230.8.14 = {
+		death=yes
+	}
+}
+204040074 = {
+	name="Domidak" #Treasure Hunter, Domidak's twin brother at Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040072
+	170.1.9 = {
+		birth=yes
+	}
+	251.11.27 = {
+		death=yes
+	}
+}
+204040075 = {
+	name="Douma" #Traveler in Zora's Domain
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	171.8.18= {
+		birth=yes
+	}
+	260.10.7 = {
+		death=yes
+	}
+}
+204040076 = {
+	name="Ember" #Owner of the Riverside Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	158.1.10= {
+		birth=yes
+	}
+	243.4.14 = {
+		death=yes
+	}
+}
+204040077 = {
+	name="Ena" #At Tabatha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	182.11.3= {
+		birth=yes
+	}
+	279.5.19 = {
+		death=yes
+	}
+}
+204040078 = {
+	name="Endai" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	172.10.19= {
+		birth=yes
+	}
+	234.1.16 = {
+		death=yes
+	}
+}
+204040079 = {
+	name="Eryck" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	169.11.24= {
+		birth=yes
+	}
+	224.6.19 = {
+		death=yes
+	}
+}
+204040080 = {
+	name="Falmark" #Traveler in Tabantha
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	163.1.2= {
+		birth=yes
+	}
+	234.4.18 = {
+		death=yes
+	}
+}
+204040081 = {
+	name="Fin" #Shield Surfer in Eldin Canyon, best friend of Russ
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	177.9.3= {
+		birth=yes
+	}
+	224.12.4 = {
+		death=yes
+	}
+}
+204040082 = {
+	name="Flaxel" #Traveler in Gerudo Desert
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	160.5.19= {
+		birth=yes
+	}
+	270.11.5 = {
+		death=yes
+	}
+}
+204040083 = {
+	name="Gaile" #Fireproof potion seller in Foothill Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	159.10.15= {
+		birth=yes
+	}
+	240.9.11 = {
+		death=yes
+	}
+}
+204040084 = {
+	name="Galli" #In Tabantha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	145.11.19= {
+		birth=yes
+	}
+	233.12.4 = {
+		death=yes
+	}
+}
+204040085 = {
+	name="Garadon" #Traveler on Hylian Bridge
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=kind
+	156.10.1= {
+		birth=yes
+	}
+	267.1.19 = {
+		death=yes
+	}
+}
+204040086 = {
+	name="Garill" #Scientist at Forth Hateno
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	136.1.29= {
+		birth=yes
+	}
+	227.9.21 = {
+		death=yes
+	}
+}
+204040087 = {
+	name="Garini" #Inspecting the Palmorae Ruins
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	trait=scholar
+	161.4.18= {
+		birth=yes
+	}
+	250.7.1 = {
+		death=yes
+	}
+}
+204040088 = {
+	name="Gartan" #Traveler in Gerudo Desert
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	150.10.9= {
+		birth=yes
+	}
+	245.4.20 = {
+		death=yes
+	}
+}
+204040089 = {
+	name="Geggle" #At Tabantha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	166.2.24= {
+		birth=yes
+	}
+	209.10.14 = {
+		death=yes
+	}
+}
+204040090 = {
+	name="Giro" #Traveling Merchant
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	stewardship=9
+	158.11.13= {
+		birth=yes
+	}
+	227.1.9 = {
+		death=yes
+	}
+}
+204040091 = {
+	name="Glendo" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	169.5.18 = {
+		birth=yes
+	}
+	260.2.24 = {
+		death=yes
+	}
+}
+204040092 = {
+	name="Gotter" #At Riverside Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	152.6.10 = {
+		birth=yes
+	}
+	243.11.9 = {
+		death=yes
+	}
+}
+204040093 = {
+	name="Grapp" #At Foothill Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	162.6.5 = {
+		birth=yes
+	}
+	241.7.7 = {
+		death=yes
+	}
+}
+204040094 = {
+	name="Hagie" #At Tarrey Town
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	168.5.15 = {
+		birth=yes
+	}
+	191.5.5 = {
+		spouse=204040095
+	}
+	241.7.7 = {
+		death=yes
+	}
+}
+204040095 = {
+	name="Ruli" #At Tarrey Town
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	170.8.12 = {
+		birth=yes
+	}
+	191.5.5 = {
+		spouse=204040094
+	}
+	247.6.9 = {
+		death=yes
+	}
+}
+204040096 = {
+	name="Hunnie" #At Tarrey Town
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	mother=204040095
+	father=204040094
+	192.6.14 = {
+		birth=yes
+	}
+	301.4.15 = {
+		death=yes
+	}
+}
+204040097 = {
+	name="Harlow" #At Snowfield Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	180.9.20 = {
+		birth=yes
+	}
+	300.12.1 = {
+		death=yes
+	}
+}
+204040098 = {
+	name="Hino" #Blood Moon expert at Dueling Peak Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	151.7.12 = {
+		birth=yes
+	}
+	220.11.4 = {
+		death=yes
+	}
+}
+204040099 = {
+	name="Hudson" #Tarrey Town Founder
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	160.10.10 = {
+		birth=yes
+	}
+	240.9.9 = {
+		death=yes
+	}
+}
+204040100 = {
+	name="Ivena" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	181.4.19 = {
+		birth=yes
+	}
+	270.6.4 = {
+		death=yes
+	}
+}
+204040101 = {
+	name="Jini" #Horse archery expert in Faron Grasslands
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	158.1.10 = {
+		birth=yes
+	}
+	230.6.4 = {
+		death=yes
+	}
+}
+204040102 = {
+	name="Jogo" #Newly wed Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	178.4.16 = {
+		birth=yes
+	}
+	200.1.1 = {
+		spouse=204040103
+	}
+	260.1.1 = {
+		death=yes
+	}
+}
+204040103 = {
+	name="Juney" #Newly wed Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female = yes
+	178.6.14 = {
+		birth=yes
+	}
+	200.1.1 = {
+		spouse=204040102
+	}
+	261.12.31 = {
+		death=yes
+	}
+}
+204040104 = {
+	name="Joute" #Traver near Fort Hatheno
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	174.10.6 = {
+		birth=yes
+	}
+	250.11.9 = {
+		death=yes
+	}
+}
+204040105 = {
+	name="Juannelle" #At Snowfield Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	176.4.12 = {
+		birth=yes
+	}
+	278.1.9 = {
+		death=yes
+	}
+}
+204040106 = {
+	name="Jules" #At Gerudo Town
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	183.5.4 = {
+		birth=yes
+	}
+	260.6.24 = {
+		death=yes
+	}
+}
+204040107 = {
+	name="Kampo" #At Lakeside Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	171.3.22 = {
+		birth=yes
+	}
+	254.6.21 = {
+		death=yes
+	}
+}
+204040108 = {
+	name="Kanny" #Traveling Merchant in Tabantha Frontier
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	169.4.19 = {
+		birth=yes
+	}
+	260.5.11 = {
+		death=yes
+	}
+}
+204040109 = {
+	name="Karson" #Worker in Hatheno
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	181.4.16 = {
+		birth=yes
+	}
+	280.6.21 = {
+		death=yes
+	}
+}
+204040110 = {
+	name="Kazul" #Traveler in Hyrule Field
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	167.2.9 = {
+		birth=yes
+	}
+	222.2.22 = {
+		death=yes
+	}
+}
+204040111 = {
+	name="Kenyo" #At Tabantha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	159.10.2 = {
+		birth=yes
+	}
+	278.12.4 = {
+		death=yes
+	}
+}
+204040112 = {
+	name="Khini" #At East Akkala Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	163.5.19 = {
+		birth=yes
+	}
+	227.6.16 = {
+		death=yes
+	}
+}
+204040113 = {
+	name="Kiana" #In Lurelin Village, Wife of Sebasto, mother of Zuta and Kinov
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	170.4.1 = {
+		birth=yes
+	}
+	190.11.2 = {
+		spouse=204040114
+		}
+	250.7.9 = {
+		death=yes
+	}
+}
+204040114 = {
+	name="Sebasto" #In Lurelin Village, Husband of Kiana, mother of Zuta and Kinov
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	168.5.15 = {
+		birth=yes
+	}
+	190.11.2 = {
+		spouse=204040113
+		}
+	261.11.4 = {
+		death=yes
+	}
+}
+204040115 = {
+	name="Zuta" #In Lurelin Village, Son of Sebasto and Kiana, brother of Kinov
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	191.1.31 = {
+		birth=yes
+	}
+	251.4.6 = {
+		death=yes
+	}
+}
+204040116 = {
+	name="Kinov" #In Lurelin Village, Son of Sebasto and Kiana, brother of Zuta
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	192.10.1 = {
+		birth=yes
+	}
+	301.10.9 = {
+		death=yes
+	}
+}
+204040117 = {
+	name="Kilton" #Traveling merchant of the Fang and Bone and Monster Entusiast
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	stewardship=10
+	trait=mystic
+	102.9.12 = {
+		birth=yes
+	}
+	230.1.15 = {
+		death=yes
+	}
+}
+204040118 = {
+	name="Kima" #Traveler in Eldin Canyon
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	165.7.19 = {
+		birth=yes
+	}
+	270.3.14 = {
+		death=yes
+	}
+}
+204040119 = {
+	name="Kish" #At Woodland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	158.9.24 = {
+		birth=yes
+	}
+	230.2.4 = {
+		death=yes
+	}
+}
+204040120 = {
+	name="Konba" #Traveler in Hyrule Ridge
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	160.12.4 = {
+		birth=yes
+	}
+	281.7.30 = {
+		death=yes
+	}
+}
+204040121 = {
+	name="Koyin" #Farmer in Hatheno
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	180.1.4 = {
+		birth=yes
+	}
+	280.1.5 = {
+		death=yes
+	}
+}
+204040122 = {
+	name="Lawdon" #At Wetland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	140.2.19 = {
+		birth=yes
+	}
+	226.7.16 = {
+		death=yes
+	}
+}
+204040123 = {
+	name="Leekah" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	175.5.10 = {
+		birth=yes
+	}
+	266.1.6 = {
+		death=yes
+	}
+}
+204040124 = {
+	name="Leop" #Runs Hateno Village's Inn
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	129.10.9 = {
+		birth=yes
+	}
+	215.5.27 = {
+		death=yes
+	}
+}
+204040125 = {
+	name="Lester" #At Tabantha Bridge Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	157.11.4 = {
+		birth=yes
+	}
+	234.10.17 = {
+		death=yes
+	}
+}
+204040126 = {
+	name="Lonni" #At South Akkala Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	166.10.24 = {
+		birth=yes
+	}
+	217.9.8 = {
+		death=yes
+	}
+}
+204040127 = {
+	name="Loone" #Lunatic girl on Puffer Beach
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	trait=lunatic
+	175.5.4 = {
+		birth=yes
+	}
+	246.9.5 = {
+		death=yes
+	}
+}
+204040128 = {
+	name="Magda" #Flower woman
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	trait=wroth
+	trait=strong
+	169.11.9 = {
+		birth=yes
+	}
+	221.10.2 = {
+		death=yes
+	}
+}
+204040129 = {
+	name="Manny" #Has a crush for Prima, watchman of Hateno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	174.3.2 = {
+		birth=yes
+	}
+	260.12.18 = {
+		death=yes
+	}
+}
+204040130 = {
+	name="Maypin" #Traveling Merchant in Gerudo Desert
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	169.4.12 = {
+		birth=yes
+	}
+	251.6.7 = {
+		death=yes
+	}
+}
+204040131 = {
+	name="Mayro" #Traveling Merchant in Gerudo Desert
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	178.2.10 = {
+		birth=yes
+	}
+	211.4.16 = {
+		death=yes
+	}
+}
+204040132 = {
+	name="Medda" #Farmer in Hateno Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	150.11.9 = {
+		birth=yes
+	}
+	249.3.1 = {
+		death=yes
+	}
+}
+204040133 = {
+	name="Meeshy" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	165.4.6 = {
+		birth=yes
+	}
+	289.3.6 = {
+		death=yes
+	}
+}
+204040134 = {
+	name="Meghyn" #Truffle hunter, sister of Nat
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040135
+	172.10.4 = {
+		birth=yes
+	}
+	269.12.3 = {
+		death=yes
+	}
+}
+204040135 = {
+	name="Nat" #Truffle hunter, sister of Meghyn
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040135
+	174.11.9 = {
+		birth=yes
+	}
+	259.10.7 = {
+		death=yes
+	}
+}
+204040135 = {
+	name="Lomben" #Non canon father of Nat and Meghyn
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	140.10.9 = {
+		birth=yes
+	}
+	196.1.3 = {
+		death=yes
+	}
+}
+204040136 = {
+	name="Mezer" #Traveling Butcher
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	158.2.13 = {
+		birth=yes
+	}
+	266.11.4 = {
+		death=yes
+	}
+}
+204040137 = {
+	name="Mimos" #Traveler
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	183.10.14 = {
+		birth=yes
+	}
+	256.10.9 = {
+		death=yes
+	}
+}
+204040138 = {
+	name="Mils" #Treasure hunter, brother of Mina
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	father=204040140
+	180.1.25 = {
+		birth=yes
+	}
+	270.9.23 = {
+		death=yes
+	}
+}
+204040139 = {
+	name="Mina" #Treasure hunter, sister of Mils
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	father=204040140
+	176.11.20 = {
+		birth=yes
+	}
+	259.2.14 = {
+		death=yes
+	}
+}
+204040140 = {
+	name="Meed" #Non canon father of Mils and Mina
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	149.10.12 = {
+		birth=yes
+	}
+	188.5.13 = {
+		death=yes
+	}
+}
+204040141 = {
+	name="Molo" #At Woodland Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	158.11.19 = {
+		birth=yes
+	}
+	266.12.8 = {
+		death=yes
+	}
+}
+204040142 = {
+	name="Moggs" #At Tarrey Town, Monari's husband
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	129.10.14 = {
+		birth=yes
+	}
+	149.3.14 = {
+		spouse=204040143
+	}
+	230.6.2 = {
+		death=yes
+	}
+}
+204040143 = {
+	name="Monari" #At Tarrey Town, Moggs' Wife
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	128.1.19 = {
+		birth=yes
+	}
+	149.3.14 = {
+		spouse=204040142
+	}
+	226.4.18 = {
+		death=yes
+	}
+}
+204040144 = {
+	name="Monkton" #At Snowfield Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	149.10.20 = {
+		birth=yes
+	}
+	260.7.11 = {
+		death=yes
+	}
+}
+204040145 = {
+	name="Monkton" #Traveler in Faron Grasslands
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	179.1.2 = {
+		birth=yes
+	}
+	220.1.1 = {
+		death=yes
+	}
+}
+204040146 = {
+	name="Mubs" #General store owner in Lurelin Village
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	138.12.11 = {
+		birth=yes
+	}
+	230.6.5 = {
+		death=yes
+	}
+}
+204040147 = {
+	name="Myti" #At Outskirt Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	172.6.10 = {
+		birth=yes
+	}
+	260.2.2 = {
+		death=yes
+	}
+}
+204040148 = {
+	name="Myti" #At Outskirt Stable
+	religion="faith_of_the_golden_goddesses"
+	culture="hylians"
+	female=yes
+	172.6.10 = {
+		birth=yes
+	}
+	260.2.2 = {
 		death=yes
 	}
 }
