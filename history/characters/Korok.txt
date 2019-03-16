@@ -1,0 +1,152 @@
+#Korok
+#In Lost Woods
+244040000 = {
+	name="Chio" # Korok chief
+	dynasty=19252200 # of Korok Forest
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040001 = {
+	name="Damia" # In Korok Forest
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040002 = {
+	name="Daz" # Owns the General Shoppe
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	stewardship=9
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040003 = {
+	name="Hestu" # Giant Korok that can expand your bag
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	trait=giant
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040004 = {
+	name="Kula" # Korok that gives you a quest
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	trait=giant
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040005 = {
+	name="Maca" # Korok that tells you how to get out of the Mistery Woods
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	learning=9
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040006 = {
+	name="Natie" # Owner of the Spore Store
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	stewardship=9
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040007 = {
+	name="Oaki" # Korok guide to a shrine
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040008 = {
+	name="Peeks" # Korok that wants the photo of a Blupee
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040009 = {
+	name="Pepp" # Fan of the Hero that allows him to sleep in his 'inn' for free
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	diplomacy=8
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040010 = {
+	name="Tasho" # Lives in the Korok Forest
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040011 = {
+	name="Walton" # Gives a prize for solving riddles
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
+244040012 = {
+	name="Zooki" # Lives in Korok Forest
+	religion="faith_of_the_golden_goddesses"
+	culture="korok"
+	1.1.1 = {
+		birth=yes
+	}
+	9999.12.31 = {
+		death=yes
+	}
+}
