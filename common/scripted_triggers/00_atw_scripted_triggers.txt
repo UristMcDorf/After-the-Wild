@@ -1,0 +1,10 @@
+atw_recently_defeated_in_bloodline_duel_trigger = {
+    custom_tooltip = {
+        text = atw_recently_defeated_in_bloodline_duel_trigger_tooltip
+        
+        had_flag = {
+            flag = atw_defeated_in_bloodline_duel
+            days < 180
+        }
+    }
+}

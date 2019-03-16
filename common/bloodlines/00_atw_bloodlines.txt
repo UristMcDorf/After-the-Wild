@@ -1,0 +1,30 @@
+# Link with an emphasis on combat prowess
+atw_link_bloodline_generic_1 = {
+    inheritance = patrilineal
+    flags = { major_notoriety link }
+
+    combat_rating = 5
+
+    command_modifier = {
+        morale_defence = 0.2
+        retreat = -0.2
+    }
+
+    # picture = TODO
+
+    active = {
+        NOR = {
+            # For a descendant of the Hero with the Triforce of Courage, being cowardly is anathema.
+            trait = craven
+            
+            # Generic trigger in all bloodlines, to do with the bloodline duels mechanic.
+            atw_recently_defeated_in_bloodline_duel_trigger = yes
+        }
+    }
+}
+
+# Link with an emphasis on resourcefulness
+
+# Link with an emphasis of his connection to the Goddesses
+
+# Link with an emphasis of multiculturalism or something, considering he did get around

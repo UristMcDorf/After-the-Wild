@@ -1,0 +1,23 @@
+namespace = ATW_UMD
+
+character_event = {
+    id = ATW_UMD.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        create_bloodline = {
+            type = atw_link_bloodline_generic_1
+        }
+    }
+}
+
+character_event = {
+    id = ATW_UMD.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        set_flag = atw_defeated_in_bloodline_duel
+    }
+}

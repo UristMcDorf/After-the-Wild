@@ -1,0 +1,4 @@
+atw_reset_lost_bloodline_duel_duration_effect = {
+    clr_flag = atw_defeated_in_bloodline_duel
+    set_flag = atw_defeated_in_bloodline_duel
+}
