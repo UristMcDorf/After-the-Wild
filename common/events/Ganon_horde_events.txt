@@ -1,0 +1,469 @@
+# Ganon horde starts forming
+narrative_event = {
+	id = GANON01
+	title = "EVTNAMEGANON01"
+	desc = "EVTDESCGANON01"
+	major = yes
+	hide_from = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_playable = yes
+	religion = faith_of_the_golden_goddesses
+	min_age = 12
+	portrait = event_target:mongol_china_invader
+	
+	trigger = {
+		OR = {
+			year = 300
+			AND = {
+				has_game_rule = {
+					name = ganon_invasion
+					value = random
+				}
+				total_years_played = 100
+			}
+			AND = {
+				has_game_rule = {
+					name = ganon_invasion
+					value = delayed_random
+				}
+				year = 400
+				total_years_played = 100
+			}
+		}
+		NOR = { 
+			year = 300
+			has_game_rule = {
+				name = mongol_invasion
+				value = off
+			}
+		}
+		controls_religion = yes 
+		NOR = {
+			has_global_flag = twili_invasion_arrival 
+			has_global_flag = lorule_horde_arrival 
+			has_global_flag = ganon_horde_arrival
+		}
+	}
+	
+	#major_trigger = {
+	#	NOT = { has_character_flag = is_ganon }
+	#}
+	is_triggered_only = yes
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 300
+		}
+		modifier = {
+			factor = 5
+			year = 305
+		}
+		modifier = {
+			factor = 100 #If game has historical rule, ensure that the Ganon Horde WILL happen when the time comes.
+			has_game_rule = {
+				name = ganon_horde
+				value = historical
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_game_rule = {
+				name = ganon_invasion
+				value = random
+			}
+			NOT = { total_years_played = 100 }
+		}
+		modifier = {
+			factor = 0.5
+			has_game_rule = {
+				name = ganon_invasion
+				value = delayed_random
+			}
+			NOT = { total_years_played = 130 }
+		}
+		modifier = {
+			factor = 0.5
+			has_game_rule = {
+				name = ganon_invasion
+				value = random
+			}
+		}
+		modifier = {
+			factor = 0.6
+			has_game_rule = {
+				name = ganon_invasion
+				value = delayed_random
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = ganon_horde_arrival }
+			}
+			set_global_flag = ganon_horde_arrival
+			activate_title = { title = e_ganon status = yes }
+			
+			if = {
+				limit = {
+					has_global_flag = ganon_returns
+				}
+				if = {
+					limit = {
+						any_independent_ruler = {
+							has_character_flag = is_ganon
+							demesne_size = 1
+							ai = yes
+						}
+					}
+					log = "Ganon exists as independent ai"
+					random_independent_ruler = {
+						limit = {
+							has_character_flag = is_ganon
+							ai = yes
+						}
+						any_demesne_title = {
+							limit = {
+								tier = EMPEROR
+							}
+							set_title_flag = to_be_destroyed
+						}
+						e_ganon = {
+							grant_title = PREV
+						}
+						any_demesne_title = {
+							limit = {
+								has_title_flag = to_be_destroyed
+							}
+							activate_title = { title = THIS status = no }
+							destroy_landed_title = THIS
+						}
+						wealth = 12000
+						prestige = 10000
+						set_character_flag = horde_invader
+						character_event = { id = GANON11 } # Spawn troops
+						character_event = { id = GANON16 days = 1 } # Spawn population
+						save_event_target_as = ganon_invader
+						if = {
+							limit = {
+								has_dlc = "Holy Fury"
+								NOT = {
+									any_owned_bloodline = {
+										has_bloodline_flag = ganondorf_line
+									}
+								}
+							}
+							create_bloodline = {
+								type = ganondorf
+							}
+						}
+					}
+					break = yes
+				}
+				if = {
+					limit = {
+						NOT = {
+							e_ganon = {
+								holder_scope = {
+									always = yes
+								}
+							}
+						}
+					}
+					log = "Ganon didn't recieve title"
+					create_character = {
+						random_traits = yes
+						dynasty = random
+						religion = the_demons_faith
+						culture = demon
+						female = no
+						age = 24
+						attributes = {
+							martial = 12
+						}
+						trait = brilliant_strategist
+						trait = ambitious
+						trait = diligent
+						trait = brave
+					}
+					new_character = {
+						if = {
+							limit = {
+								has_dlc = "Holy Fury"
+								NOT = {
+									any_owned_bloodline = {
+										has_bloodline_flag = demons_line
+									}
+								}
+							}
+							create_bloodline = {
+								type = demons_khan
+							}
+						}
+						e_ganon = {
+							set_title_landless = { title = THIS status = yes }
+							set_title_flag = temporary_landless_title
+							grant_title = PREV
+						}
+						set_defacto_liege = THIS
+						if = {
+							limit = {
+								has_dlc = "Horse Lords"
+							}
+							set_government_type = nomadic_government
+						}
+						if = {
+							limit = {
+								NOT = { has_dlc = "Horse Lords" }
+							}
+							set_government_type = tribal_government
+						}
+						wealth = 12000
+						prestige = 10000
+						set_character_flag = horde_invader
+						character_event = { id = 60509 } # Spawn courtiers
+						character_event = { id = 60510 } # Spawn troops
+						character_event = { id = 60515 days = 1 } # Spawn population
+						save_event_target_as = mongol_china_invader
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						e_ganon = {
+							holder_scope = { always = yes }
+						}
+					}
+				}
+				log = "Spawning Ganon for invasion"
+				create_character = {
+					name="Ganon"
+					# AKA: The Great Calamity
+					dynasty=1051210
+					dna="bfimkolbecc"
+					properties="ge0af0000000"
+					age = 40
+					attributes = {
+						martial=10
+						diplomacy=8
+						intrigue=8
+						stewardship=9
+					}
+					health = 6
+					fertility = 0.7
+					religion="the_demons_faith"
+					culture="demons"
+					trait="brave"
+					trait="ambitious"
+					trait="diligent"
+					trait="cruel"
+					trait="hunter"
+					trait="cavalry_leader"
+					trait="brilliant_strategist"
+				}
+				new_character = {
+					set_character_flag = is_ganon
+					if = {
+						limit = {
+							has_dlc = "Holy Fury"
+							NOT = {
+								any_owned_bloodline = {
+									has_bloodline_flag = ganon_line
+								}
+							}
+						}
+						create_bloodline = {
+							type = ganon
+						}
+					}
+					e_ganon = {
+						set_title_landless = { title = THIS status = yes }
+						set_title_flag = temporary_landless_title
+						grant_title = PREV
+					}
+					set_defacto_liege = THIS
+					if = {
+						limit = {
+							has_dlc = "Horse Lords"
+						}
+						set_government_type = nomadic_government
+					}
+					if = {
+						limit = {
+							NOT = { has_dlc = "Horse Lords" }
+						}
+						set_government_type = tribal_government
+					}
+					wealth = 12000
+					prestige = 10000
+					set_character_flag = horde_invader
+					character_event = { id = GANON06 } # Spawn Temujins generals
+					character_event = { id = GANON10 } # Spawn courtiers
+					character_event = { id = GANON11 } # Spawn troops
+					character_event = { id = GANON16 days = 1 } # Spawn population
+					save_event_target_as = ganon_invader
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Horse Lords"
+				}				
+				1925 = { # Tuul
+					kingdom = {
+						e_ganon = {
+							holder_scope = {
+								war = {
+									casus_belli = ganon_invasion
+									target = PREVPREVPREV # The top liege of the owner of the province
+									thirdparty_title = PREVPREV # The de jure kingdom
+								}
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Horse Lords" }
+				}				
+				1925 = { # Tuul
+					kingdom = {
+						e_ganon = {
+							holder_scope = {
+								war = {
+									casus_belli = ganon_invasion
+									target = PREVPREVPREV # The top liege of the owner of the province
+									thirdparty_title = PREVPREV # The de jure kingdom
+								}
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Jade Dragon"
+					offmap_china = {
+						OR = {
+							NOT = { has_offmap_flag = china_invaded_player_dynasty }
+							had_offmap_tmp_flag = {
+								flag = china_invaded_player_dynasty
+								years = 200
+							}
+						}
+					}
+				}
+				event_target:ganon_invader = {
+					character_event = { id = 60531 days = 100 random = 100 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_power_omen_modifier_trigger = yes
+					has_battle_omen_modifier_trigger = yes
+				}
+			}
+			set_character_flag = negative_event_flag # For the scrying outcome calculation...
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAGANON01"
+		trigger = {
+			OR = {
+				religion_group = hyrulean_triforce
+				religion_group = lorulean
+				religion_group = terminean
+			}
+			NOT = { government = nomadic_government }
+			has_power_omen_modifier_trigger = no
+			has_battle_omen_modifier_trigger = no
+		}
+	}
+	
+	option = {
+		name = "EVTOPTBGANON01"
+		trigger = {
+			NOT = { religion_group = hyrulean_triforce }
+			NOT = { religion_group = lorulean }
+			NOT = { religion_group = terminean }
+			NOT = { government = nomadic_government }
+			has_power_omen_modifier_trigger = no
+			has_battle_omen_modifier_trigger = no
+		}
+	}
+	
+	option = {
+		name = "EVTOPTCGANON01"
+		trigger = {
+			government = nomadic_government
+			has_power_omen_modifier_trigger = no
+			has_battle_omen_modifier_trigger = no
+		}
+	}
+
+	option = { # scrying omen included
+		name = "EVTOPTAGANON01"
+
+		calculate_scrying_outcome_effect = yes
+		remove_scrying_omen_modifiers_effect = yes
+		tooltip_info = yes
+
+		trigger = {
+			OR = {
+				religion_group = hyrulean_triforce
+				religion_group = lorulean
+				religion_group = terminean
+			}
+			NOT = { government = nomadic_government }
+			OR = {
+				has_power_omen_modifier_trigger = yes
+				has_battle_omen_modifier_trigger = yes
+			}
+		}
+	}
+	
+	option = { # scrying omen included
+		name = "EVTOPTBGANON01"
+		
+		calculate_scrying_outcome_effect = yes
+		remove_scrying_omen_modifiers_effect = yes
+		tooltip_info = yes
+
+		trigger = {
+			NOT = { religion_group = hyrulean_triforce }
+			NOT = { religion_group = lorulean }
+			NOT = { religion_group = terminean }
+			NOT = { government = nomadic_government }
+			OR = {
+				has_power_omen_modifier_trigger = yes
+				has_battle_omen_modifier_trigger = yes
+			}
+		}
+	}
+	
+	option = { # scrying omen included
+		name = "EVTOPTC60500"
+
+		calculate_scrying_outcome_effect = yes
+		remove_scrying_omen_modifiers_effect = yes
+		tooltip_info = yes
+
+		trigger = {
+			government = nomadic_government
+			OR = {
+				has_power_omen_modifier_trigger = yes
+				has_battle_omen_modifier_trigger = yes
+			}
+		}
+	}
+}
