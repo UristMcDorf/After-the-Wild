@@ -263,7 +263,7 @@
 		birth=yes
 	}
 	189.1.19 = {
-		spouse=
+		#spouse=
 	}
 	251.12.26 = {
 		death=yes
@@ -360,7 +360,7 @@
 		birth=yes
 	}
 	201.3.18 = {
-		spouse=
+		#spouse=
 	}
 	255.13.3 = {
 		death=yes
