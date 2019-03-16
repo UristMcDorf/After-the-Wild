@@ -1,0 +1,21 @@
+# Hyrule
+
+technology = {
+	titles = {
+		d_hyrule_castle
+	}
+	
+	769 = {
+		military = 1.2
+		economy = 1.5
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+

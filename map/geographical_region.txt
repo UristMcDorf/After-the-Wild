@@ -1,0 +1,5 @@
+world_hyrule_plains = {
+	duchies = {
+		d_hyrule_castle
+	}
+}

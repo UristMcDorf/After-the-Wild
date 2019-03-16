@@ -1,0 +1,55 @@
+e_rebels = {
+	rebel = yes
+	landless = yes
+	primary = yes
+
+	culture = swedish
+	religion = pagan
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+
+e_pirates = {
+	pirate = yes
+	landless = yes
+	primary = yes
+
+	culture = swedish
+	religion = pagan
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+
+# Common Titles
+
+e_great_hyrule = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	capital = 7 # Hyrule Castle
+
+	k_central_hyrule = {
+		color={ 200 200 200 }
+		color2={ 255 255 255 }
+
+		capital = 7 # Hyrule Castle
+
+		d_hyrule_castle = {
+			color={ 205 205 205 }
+			color2={ 255 255 255 }
+
+			capital = 7 # Hyrule Castle
+
+			c_hyrule = {
+				color={ 250 250 250 }
+				color={ 255 255 255 }
+
+				b_hyrule_castle = {}
+			}
+		}
+	}
+}
