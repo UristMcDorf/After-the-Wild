@@ -47,7 +47,7 @@ zora = {
 		
 		seafarer = yes
 	}
-	river zora = {
+	river_zora = {
 		graphical_cultures = { riverzoragfx }
 		
 		color = { 0.0 0.6 0.0 } #Green

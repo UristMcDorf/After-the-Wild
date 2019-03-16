@@ -965,7 +965,7 @@ monsters = {
 		
 	}
 
-	stone talus = {
+	stone_talus = {
 		graphical_cultures = { stalusgfx }
 		
 		color = { 0 0 0 }
